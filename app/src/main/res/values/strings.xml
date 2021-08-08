@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">KitchenStories</string>
+    <string name="scaption_1">Meet the Experts</string>
+    <string name="scaption_2">Expert Register</string>
+    <string name="scaption_3">Edit Expert</string>
+    <string name="stext_1">Chathurika Dias</string>
+    <string name="stext_2">chathurika.d@gmail.com</string>
+    <string name="stext_3">Dimuthu Kumarasinghe</string>
+    <string name="stext_4">dimuthu.d@gmail.com</string>
+    <string name="stext_5">Suranga Satharasinghe</string>
+    <string name="stext_6">suranga.s@gmail.com</string>
+    <string name="stext_7">Are you an expert? click +</string>
+    <string name="stext_8">Dimuthu Kumarasinghe</string>
+    <string name="stext_9">Then others can hire you</string>
+    <string name="stext_10">Name</string>
+    <string name="stext_11">Email</string>
+    <string name="stext_12">Carrier</string>
+    <string name="stext_13">Works at</string>
+    <string name="stext_14">Upload a Photo of You</string>
+    <string name="stext_15">Your Expert</string>
+    <string name="stext_16">Chathurika Dias</string>
+    <string name="stext_17">chathurika.d@gmail.com</string>
+    <string name="stext_18">Senior Chef</string>
+    <string name="stext_19">Hilton Hotel</string>
+    <string name="sedit_1">Enter Name</string>
+    <string name="sedit_2">Enter Email</string>
+    <string name="sedit_3">Enter Carrier</string>
+    <string name="sedit_4">Enter Works Place</string>
+    <string name="btn_1">Save</string>
+    <string name="btn_2">Hire</string>
+    <string name="btn_3">Save Changes</string>
+
 </resources>
