@@ -3,31 +3,72 @@
     <string name="scaption_1">Meet the Experts</string>
     <string name="scaption_2">Expert Register</string>
     <string name="scaption_3">Edit Expert</string>
+    <string name="scaption_4">History</string>
+    <string name="scaption_5">Your Expert</string>
+    <string name="scaption_6">Profile</string>
+    <string name="scaption_7">Edit Profile</string>
+
+    <string name="slabel_1">Name</string>
+    <string name="slabel_2">Email</string>
+    <string name="slabel_3">Carrier</string>
+    <string name="slabel_4">Works at</string>
+    <string name="slabel_5">Upload a Photo of You</string>
+    <string name="slabel_6">Are you an expert? click +</string>
+    <string name="slabel_7">Then others can hire you</string>
+    <string name="slabel_8">Date</string>
+    <string name="slabel_9">Item</string>
+    <string name="slabel_10">Act</string>
+    <string name="slabel_11">App Data Usage</string>
+    <string name="slabel_12">Phone</string>
+    <string name="slabel_13">Username</string>
+    <string name="slabel_14">Type</string>
+
+    <string name="sedit_1">Enter Name</string>
+    <string name="sedit_2">Enter Email</string>
+    <string name="sedit_3">Enter Carrier</string>
+    <string name="sedit_4">Enter Works Place</string>
+    <string name="sedit_5">Total Visits</string>
+    <string name="sedit_6">Enter Phone</string>
+    <string name="sedit_7">Enter Username</string>
+
+    <string name="sbtn_1">Save</string>
+    <string name="sbtn_2">Hire</string>
+    <string name="sbtn_3">Save Changes</string>
+    <string name="sbtn_4">more</string>
+    <string name="sbtn_5">Calculate</string>
+    <string name="sbtn_6">Edit Profile</string>
+    <string name="sbtn_7">Delete Profile</string>
+    <string name="sbtn_8">Login</string>
+    <string name="sbtn_9">Sign Up</string>
+
     <string name="stext_1">Chathurika Dias</string>
     <string name="stext_2">chathurika.d@gmail.com</string>
     <string name="stext_3">Dimuthu Kumarasinghe</string>
     <string name="stext_4">dimuthu.d@gmail.com</string>
     <string name="stext_5">Suranga Satharasinghe</string>
     <string name="stext_6">suranga.s@gmail.com</string>
-    <string name="stext_7">Are you an expert? click +</string>
     <string name="stext_8">Dimuthu Kumarasinghe</string>
-    <string name="stext_9">Then others can hire you</string>
-    <string name="stext_10">Name</string>
-    <string name="stext_11">Email</string>
-    <string name="stext_12">Carrier</string>
-    <string name="stext_13">Works at</string>
-    <string name="stext_14">Upload a Photo of You</string>
-    <string name="stext_15">Your Expert</string>
     <string name="stext_16">Chathurika Dias</string>
     <string name="stext_17">chathurika.d@gmail.com</string>
     <string name="stext_18">Senior Chef</string>
     <string name="stext_19">Hilton Hotel</string>
-    <string name="sedit_1">Enter Name</string>
-    <string name="sedit_2">Enter Email</string>
-    <string name="sedit_3">Enter Carrier</string>
-    <string name="sedit_4">Enter Works Place</string>
-    <string name="btn_1">Save</string>
-    <string name="btn_2">Hire</string>
-    <string name="btn_3">Save Changes</string>
+    <string name="stext_20">28.08.2021</string>
+    <string name="stext_21">Kebab</string>
+    <string name="stext_22">Buy</string>
+    <string name="stext_23">17.07.2021</string>
+    <string name="stext_24">Thanduri</string>
+    <string name="stext_25">View</string>
+    <string name="stext_26">18.03.2021</string>
+    <string name="stext_27">Pasta</string>
+    <string name="stext_28">Buy</string>
+    <string name="stext_29">12.05.2021</string>
+    <string name="stext_30">Garlic</string>
+    <string name="stext_31">View</string>
+    <string name="stext_32">Thamali Nirmala</string>
+    <string name="stext_33">tnirmalaadasooriya@gmail.com</string>
+    <string name="stext_34">0770113XXX</string>
+    <string name="stext_35">Sweet Thamali</string>
+    <string name="stext_36">Top User</string>
+
 
 </resources>
