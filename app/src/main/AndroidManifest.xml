@@ -9,7 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenStories">
-        <activity android:name=".EditProfileActivity"></activity>
+        <activity
+            android:name=".SummaryOfRecipeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KitchenStoriesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditRecipeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddSuccessActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddRecipeActivity"
+            android:exported="true" />
+        <activity android:name=".EditProfileActivity" />
         <activity android:name=".ViewProfileActivity" />
         <activity android:name=".HistoryActivity" />
         <activity android:name=".EditExpertActivity" />
@@ -23,6 +44,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

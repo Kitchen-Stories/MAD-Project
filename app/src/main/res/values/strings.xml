@@ -71,4 +71,139 @@
     <string name="stext_36">Top User</string>
 
 
+
+    <string name="tcaption_1">Ratings Reviews </string>
+    <string name="tcaption_2">Write a Review </string>
+    <string name="tcaption_3">Edit Review </string>
+    <string name="tcaption_4">All Review </string>
+    <string name="tcaption_5">App Support </string>
+    <string name="tcaption_6">Summary Reviews </string>
+    <string name="tlable_1">Cancel </string>
+    <string name="tlable_2">Review Title </string>
+    <string name="tlable_3">What is your Rate  </string>
+    <string name="tlable_4">Category </string>
+    <string name="tlable_6">Select category </string>
+    <string name="tlable_7">Your Comment </string>
+    <string name="tlable_8">Upload Photos </string>
+    <string name="tlable_9">Click to add Photo </string>
+    <string name="tlable_10">Customer </string>
+    <string name="tlable_11">Username </string>
+    <string name="tlable_12">Date </string>
+    <string name="tlable_13">Status </string>
+    <string name="tlable_14">Calculation </string>
+    <string name="tlable_15">Tap to Rate : </string>
+    <string name="tlable_16">Total Reviews </string>
+    <string name="tlable_17">Write a Review </string>
+    <string name="tlable_18">App Support </string>
+    <string name="tlable_19">Others Review </string>
+
+    [7:10 PM] Kumarasiri R. D. S. R. it19003160
+    <string name="tbtn_1">Submit Your Review</string>
+    <string name="tbtn_2">Save Changes</string>
+    <string name="tbtn_3">See more.... </string>
+    <string name="tbtn_4">Calculate</string>
+    <string name="ttext_1">Sahan</string>
+    <string name="ttext_2">12/05/2021</string>
+    <string name="ttext_3">Positive</string>
+    <string name="ttext_4">Mithila</string>
+    <string name="ttext_5">20/02/2021</string>
+    <string name="ttext_6">Moderate</string>
+    <string name="ttext_7">Chandima</string>
+    <string name="ttext_8">23/01/2021</string>
+    <string name="ttext_9">Critical</string>
+    <string name="ttext_10">Amali</string>
+    <string name="ttext_11">13/07/2021</string>
+    <string name="ttext_12">Fare</string>
+    <string name="ttext_13">5 reviews</string>
+    <string name="ttext_15">4 day ago</string>
+    <string name="ttext_16">Excellent</string>
+    <string name="ttext_17">Edit</string>
+    <string name="ttext_18">4 reviews</string>
+    <string name="ttext_19">10 day ago</string>
+    <string name="ttext_20">Good Product</string>
+    <string name="ttext_21">3 reviews</string>
+    <string name="ttext_22">11 day ago</string>
+    <string name="ttext_23">I am not interested</string>
+    <string name="ttext_24">3.9</string>
+    <string name="ttext_25">See all</string>
+    <string name="ttext_26">Out of 5</string>
+    <string name="ttext_27">180 Ratings</string>
+    <string name="ttext_28">Customer Comments</string>
+    <string name="tedit_1">Enter Message </string>
+    <string name="tedit_2">Enter the Title </string>
+    <string name="tedit_3">Write your comment here </string>
+
+
+
+
+
+
+    <string name="Mcaption1">Add Recipe</string>
+    <string name="Mcaption2">Pasta</string>
+    <string name="Mcaption3">Summary of recipe</string>
+    <string name="Mcaption4">Kitchen Stories</string>
+    <string name="Mcaption5">Edit recipe</string>
+
+    <string name="Mtopic1">Ingredients</string>
+    <string name="Mtopic2">Ingredients</string>
+
+    <string name="Mtext1">Pasta</string>
+    <string name="Mtext2">choose</string>
+    <string name="Mtext3">legume pasta</string>
+    <string name="Mtext4">Sometimes egg</string>
+    <string name="Mtext5">Durum wheat flour</string>
+    <string name="Mtext6">Butter</string>
+    <string name="Mtext7">Rice flour pasta</string>
+    <string name="Mtext8">Boil Water</string>
+    <string name="Mtext9">Add Salt</string>
+    <string name="Mtext10">Add The Pasta</string>
+    <string name="Mtext11">Stir</string>
+    <string name="Mtext12">Taste The Pasta</string>
+    <string name="Mtext13">Drain</string>
+    <string name="Mtext14">Removing Ravioli</string>
+    <string name="Mtext15">Stir in the Sauce</string>
+    <string name="Mtext16">Add Pasta Water</string>
+    <string name="Mtext17">Add more......</string>
+    <string name="Mtext18">Total Recipes</string>
+    <string name="Mtext19">Collections</string>
+    <string name="Mtext20">more...</string>
+    <string name="Mtext21">Sign Up</string>
+    <string name="Mtext22">Already have an account?</string>
+    <string name="MSearchView1">What would you like to cook?</string>
+    <string name="Mtext23">Kebab</string>
+    <string name="Mtext24">Garlic Dish</string>
+    <string name="Mtext25">Past</string>
+    <string name="Mtext26">Thanduri Chiken</string>
+    <string name="Mtext27">Top Recipes</string>
+    <string name="Mtext28">Edit Details ?</string>
+    <string name="Mtext29">Added Success!</string>
+
+
+    <string name="MinputText1">Add..</string>
+    <string name="MinputText2">Add..</string>
+    <string name="MinputText3">Add..</string>
+    <string name="MinputText4">Add..</string>
+    <string name="MinputText5">Add..</string>
+    <string name="MinputText6">Add...</string>
+    <string name="MinputText7">Username</string>
+    <string name="MinputEmail1">Email</string>
+    <string name="MinputPassword1">Password</string>
+    <string name="MinputPassword2">Confirm Password</string>
+
+
+    <string name="MButton1">Add</string>
+    <string name="MButton2">Calculate</string>
+    <string name="MButton3">Register</string>
+    <string name="MButton4">Login</string>
+    <string name="MButton5">Save</string>
+    <string name="MButton6">more.....</string>
+    <string name="MButton7">OK</string>
+    <string name="MButton8">Cancel</string>
+
+    <string name="MButton9">Edit</string>
+    <string name="MButton10">View</string>
+
+
+    <string name="MtextView11">Pasta</string>
+
 </resources>
