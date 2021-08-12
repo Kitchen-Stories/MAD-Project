@@ -126,74 +126,13 @@
     <string name="ttext_27">180 Ratings</string>
     <string name="ttext_28">Customer Comments</string>
 
+
+
+
+
     <string name="tedit_1">Enter Message </string>
     <string name="tedit_2">Enter the Title </string>
     <string name="tedit_3">Write your comment here </string>
-
-
-    <string name="tcaption_1">Ratings Reviews </string>
-    <string name="tcaption_2">Write a Review </string>
-    <string name="tcaption_3">Edit Review </string>
-    <string name="tcaption_4">All Review </string>
-    <string name="tcaption_5">App Support </string>
-    <string name="tcaption_6">Summary Reviews </string>
-    <string name="tlable_1">Cancel </string>
-    <string name="tlable_2">Review Title </string>
-    <string name="tlable_3">What is your Rate  </string>
-    <string name="tlable_4">Category </string>
-    <string name="tlable_6">Select category </string>
-    <string name="tlable_7">Your Comment </string>
-    <string name="tlable_8">Upload Photos </string>
-    <string name="tlable_9">Click to add Photo </string>
-    <string name="tlable_10">Customer </string>
-    <string name="tlable_11">Username </string>
-    <string name="tlable_12">Date </string>
-    <string name="tlable_13">Status </string>
-    <string name="tlable_14">Calculation </string>
-    <string name="tlable_15">Tap to Rate : </string>
-    <string name="tlable_16">Total Reviews </string>
-    <string name="tlable_17">Write a Review </string>
-    <string name="tlable_18">App Support </string>
-    <string name="tlable_19">Others Review </string>
-
-    [7:10 PM] Kumarasiri R. D. S. R. it19003160
-    <string name="tbtn_1">Submit Your Review</string>
-    <string name="tbtn_2">Save Changes</string>
-    <string name="tbtn_3">See more.... </string>
-    <string name="tbtn_4">Calculate</string>
-    <string name="ttext_1">Sahan</string>
-    <string name="ttext_2">12/05/2021</string>
-    <string name="ttext_3">Positive</string>
-    <string name="ttext_4">Mithila</string>
-    <string name="ttext_5">20/02/2021</string>
-    <string name="ttext_6">Moderate</string>
-    <string name="ttext_7">Chandima</string>
-    <string name="ttext_8">23/01/2021</string>
-    <string name="ttext_9">Critical</string>
-    <string name="ttext_10">Amali</string>
-    <string name="ttext_11">13/07/2021</string>
-    <string name="ttext_12">Fare</string>
-    <string name="ttext_13">5 reviews</string>
-    <string name="ttext_15">4 day ago</string>
-    <string name="ttext_16">Excellent</string>
-    <string name="ttext_17">Edit</string>
-    <string name="ttext_18">4 reviews</string>
-    <string name="ttext_19">10 day ago</string>
-    <string name="ttext_20">Good Product</string>
-    <string name="ttext_21">3 reviews</string>
-    <string name="ttext_22">11 day ago</string>
-    <string name="ttext_23">I am not interested</string>
-    <string name="ttext_24">3.9</string>
-    <string name="ttext_25">See all</string>
-    <string name="ttext_26">Out of 5</string>
-    <string name="ttext_27">180 Ratings</string>
-    <string name="ttext_28">Customer Comments</string>
-    <string name="tedit_1">Enter Message </string>
-    <string name="tedit_2">Enter the Title </string>
-    <string name="tedit_3">Write your comment here </string>
-
-
-
 
 
 
@@ -236,6 +175,22 @@
     <string name="Mtext27">Top Recipes</string>
     <string name="Mtext28">Edit Details ?</string>
     <string name="Mtext29">Added Success!</string>
+
+    <string name="mtble_1">Recipe name</string>
+    <string name="mtble_2">Date added</string>
+    <string name="mtble_3">Likes</string>
+    <string name="mtble_4">Kebab</string>
+    <string name="mtble_5">Thanduri</string>
+    <string name="mtble_6">Pasta</string>
+    <string name="mtble_7">Garlic</string>
+    <string name="mtble_8">01.01.2021</string>
+    <string name="mtble_9">02.02.2021</string>
+    <string name="mtble_10">03.03.2021</string>
+    <string name="mtble_11">04.04.2021</string>
+    <string name="mtble_12">1k</string>
+    <string name="mtble_13">2.4k</string>
+    <string name="mtble_14">4M</string>
+    <string name="mtble_15">10M</string>
 
 
     <string name="MinputText1">Add..</string>
