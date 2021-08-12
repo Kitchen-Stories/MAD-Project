@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenStories">
+        <activity android:name=".TopFoodsActivity"></activity>
+        <activity android:name=".CartActivity" />
+        <activity android:name=".DeliveryActivity" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".FavouriteActivity" />
+        <activity android:name=".Pay_hereActivity" />
+        <activity android:name=".LoginActivity" />
         <activity
             android:name=".SummaryOfRecipeActivity"
             android:exported="true" />
