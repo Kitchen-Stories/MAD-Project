@@ -126,13 +126,13 @@
     <string name="ttext_27">180 Ratings</string>
     <string name="ttext_28">Customer Comments</string>
 
+
+
+
+
     <string name="tedit_1">Enter Message </string>
     <string name="tedit_2">Enter the Title </string>
     <string name="tedit_3">Write your comment here </string>
-
-
-
-
 
 
 
@@ -175,6 +175,22 @@
     <string name="Mtext27">Top Recipes</string>
     <string name="Mtext28">Edit Details ?</string>
     <string name="Mtext29">Added Success!</string>
+
+    <string name="mtble_1">Recipe name</string>
+    <string name="mtble_2">Date added</string>
+    <string name="mtble_3">Likes</string>
+    <string name="mtble_4">Kebab</string>
+    <string name="mtble_5">Thanduri</string>
+    <string name="mtble_6">Pasta</string>
+    <string name="mtble_7">Garlic</string>
+    <string name="mtble_8">01.01.2021</string>
+    <string name="mtble_9">02.02.2021</string>
+    <string name="mtble_10">03.03.2021</string>
+    <string name="mtble_11">04.04.2021</string>
+    <string name="mtble_12">1k</string>
+    <string name="mtble_13">2.4k</string>
+    <string name="mtble_14">4M</string>
+    <string name="mtble_15">10M</string>
 
 
     <string name="MinputText1">Add..</string>
