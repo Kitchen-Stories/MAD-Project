@@ -126,4 +126,8 @@
     <string name="ttext_27">180 Ratings</string>
     <string name="ttext_28">Customer Comments</string>
 
+    <string name="tedit_1">Enter Message </string>
+    <string name="tedit_2">Enter the Title </string>
+    <string name="tedit_3">Write your comment here </string>
+
 </resources>
