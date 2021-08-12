@@ -1,12 +1,78 @@
 <resources>
     <string name="app_name">KitchenStories</string>
+    <string name="scaption_1">Meet the Experts</string>
+    <string name="scaption_2">Expert Register</string>
+    <string name="scaption_3">Edit Expert</string>
+    <string name="scaption_4">History</string>
+    <string name="scaption_5">Your Expert</string>
+    <string name="scaption_6">Profile</string>
+    <string name="scaption_7">Edit Profile</string>
+    <string name="slabel_1">Name</string>
+    <string name="slabel_2">Email</string>
+    <string name="slabel_3">Carrier</string>
+    <string name="slabel_4">Works at</string>
+    <string name="slabel_5">Upload a Photo of You</string>
+    <string name="slabel_6">Are you an expert? click +</string>
+    <string name="slabel_7">Then others can hire you</string>
+    <string name="slabel_8">Date</string>
+    <string name="slabel_9">Item</string>
+    <string name="slabel_10">Act</string>
+    <string name="slabel_11">App Data Usage</string>
+    <string name="slabel_12">Phone</string>
+    <string name="slabel_13">Username</string>
+    <string name="slabel_14">Type</string>
+    <string name="sedit_1">Enter Name</string>
+    <string name="sedit_2">Enter Email</string>
+    <string name="sedit_3">Enter Carrier</string>
+    <string name="sedit_4">Enter Works Place</string>
+    <string name="sedit_5">Total Visits</string>
+    <string name="sedit_6">Enter Phone</string>
+    <string name="sedit_7">Enter Username</string>
+
+    <string name="sbtn_1">Save</string>
+    <string name="sbtn_2">Hire</string>
+    <string name="sbtn_3">Save Changes</string>
+    <string name="sbtn_4">more</string>
+    <string name="sbtn_5">Calculate</string>
+    <string name="sbtn_6">Edit Profile</string>
+    <string name="sbtn_7">Delete Profile</string>
+    <string name="sbtn_8">Login</string>
+    <string name="sbtn_9">Sign Up</string>
+    <string name="stext_1">Chathurika Dias</string>
+    <string name="stext_2">chathurika.d@gmail.com</string>
+    <string name="stext_3">Dimuthu Kumarasinghe</string>
+    <string name="stext_4">dimuthu.d@gmail.com</string>
+    <string name="stext_5">Suranga Satharasinghe</string>
+    <string name="stext_6">suranga.s@gmail.com</string>
+    <string name="stext_8">Dimuthu Kumarasinghe</string>
+    <string name="stext_16">Chathurika Dias</string>
+    <string name="stext_17">chathurika.d@gmail.com</string>
+    <string name="stext_18">Senior Chef</string>
+    <string name="stext_19">Hilton Hotel</string>
+    <string name="stext_20">28.08.2021</string>
+    <string name="stext_21">Kebab</string>
+    <string name="stext_22">Buy</string>
+    <string name="stext_23">17.07.2021</string>
+    <string name="stext_24">Thanduri</string>
+    <string name="stext_25">View</string>
+    <string name="stext_26">18.03.2021</string>
+    <string name="stext_27">Pasta</string>
+    <string name="stext_28">Buy</string>
+    <string name="stext_29">12.05.2021</string>
+    <string name="stext_30">Garlic</string>
+    <string name="stext_31">View</string>
+    <string name="stext_32">Thamali Nirmala</string>
+    <string name="stext_33">tnirmalaadasooriya@gmail.com</string>
+    <string name="stext_34">0770113XXX</string>
+    <string name="stext_35">Sweet Thamali</string>
+    <string name="stext_36">Top User</string>
+
     <string name="tcaption_1">Ratings Reviews </string>
     <string name="tcaption_2">Write a Review </string>
     <string name="tcaption_3">Edit Review </string>
     <string name="tcaption_4">All Review </string>
     <string name="tcaption_5">App Support </string>
     <string name="tcaption_6">Summary Reviews </string>
-
 
     <string name="tlable_1">Cancel </string>
     <string name="tlable_2">Review Title </string>
@@ -21,19 +87,20 @@
     <string name="tlable_12">Date </string>
     <string name="tlable_13">Status </string>
     <string name="tlable_14">Calculation </string>
-    <string name="tlable_15">Total Reiews </string>
-
+    <string name="tlable_15">Tap to Rate : </string>
+    <string name="tlable_16">Total Reviews </string>
+    <string name="tlable_17">Write a Review </string>
+    <string name="tlable_18">App Support </string>
+    <string name="tlable_19">Others Review </string>
 
     <string name="tedit_1">Enter Message </string>
     <string name="tedit_2">Enter the Title </string>
     <string name="tedit_3">Write your comment here </string>
 
-
     <string name="tbtn_1">Submit Your Review</string>
     <string name="tbtn_2">Save Changes</string>
     <string name="tbtn_3">See more.... </string>
     <string name="tbtn_4">Calculate</string>
-
 
     <string name="ttext_1">Sahan</string>
     <string name="ttext_2">12/05/2021</string>
@@ -47,5 +114,20 @@
     <string name="ttext_10">Amali</string>
     <string name="ttext_11">13/07/2021</string>
     <string name="ttext_12">Fare</string>
+    <string name="ttext_13">5 reviews</string>
+    <string name="ttext_15">4 day ago</string>
+    <string name="ttext_16">Excellent</string>
+    <string name="ttext_17">Edit</string>
+    <string name="ttext_18">4 reviews</string>
+    <string name="ttext_19">10 day ago</string>
+    <string name="ttext_20">Good Product</string>
+    <string name="ttext_21">3 reviews</string>
+    <string name="ttext_22">11 day ago</string>
+    <string name="ttext_23">I am not interested</string>
+    <string name="ttext_24">3.9</string>
+    <string name="ttext_25">See all</string>
+    <string name="ttext_26">Out of 5</string>
+    <string name="ttext_27">180 Ratings</string>
+    <string name="ttext_28">Customer Comments</string>
 
 </resources>
