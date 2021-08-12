@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="73dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_registration_96" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="183dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:text="@string/Mtext21"
+        android:textColor="@color/Mtext1c"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="240dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="404dp"
+        android:ems="10"
+        android:hint="@string/MinputText7"
+        android:inputType="textPersonName"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/imageView21" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_user_96" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons8_mail_96" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="340dp"
+        android:ems="10"
+        android:hint="@string/MinputEmail1"
+        android:inputType="textEmailAddress"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="240dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="276dp"
+        android:ems="10"
+        android:hint="@string/MinputPassword1"
+        android:inputType="numberPassword"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword2"
+        android:layout_width="240dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="215dp"
+        android:ems="10"
+        android:hint="@string/MinputPassword2"
+        android:inputType="numberPassword"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="147dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="120dp"
+        android:background="@color/MButton2c"
+        android:text="@string/MButton3"
+        android:textSize="18sp"
+        app:backgroundTint="@color/MButton2c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="289dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/Mtext22"
+        android:textColor="@color/Mtext1c"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/MButton4"
+        android:textColor="@color/Mtext2c"
+        android:textSize="16sp"
+        app:backgroundTint="@color/MButton3c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="50dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="288dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icons8_asterisk_90" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="228dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icons8_asterisk_90" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
