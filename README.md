@@ -1,13 +1,14 @@
 # MAD-Project
 Android Studio Mini Project
 
-Contributors---------
-1.Sahan Kumarasiri
-2.Thamali Nirmala
-3.Mithila Dilshan
-4.Chandima Medawela
+Contributors🧑‍💻
 
-1.	Introduction to the Project
+1.Sahan Kumarasiri💔
+2.Thamali Nirmala💔
+3.Mithila Dilshan💙
+4.Chandima Medawela💚
+
+1.	Introduction to the Project✍🏻
 
 
 With the vast development of the technology, people are busy for their tasks. So, all are keen to use mobile applications. There are so many kinds of mobile applications. We can find many of them and cannot say that “Can we find any kind of mobile app ?.” 
