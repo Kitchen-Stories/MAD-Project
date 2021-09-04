@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenStories">
-        <activity android:name=".TopFoodsActivity"></activity>
+        <activity android:name=".TopFoodsActivity"/>
         <activity android:name=".CartActivity" />
         <activity android:name=".DeliveryActivity" />
         <activity android:name=".MessageActivity" />
