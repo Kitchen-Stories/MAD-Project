@@ -127,13 +127,9 @@
     <string name="ttext_28">Customer Comments</string>
 
 
-
-
-
     <string name="tedit_1">Enter Message </string>
     <string name="tedit_2">Enter the Title </string>
     <string name="tedit_3">Write your comment here </string>
-
 
 
     <string name="Mcaption1">Add Recipe</string>
@@ -221,7 +217,6 @@
     <string name="MtextView11">Pasta</string>
 
 
-
     <string name="ks_search">search here</string>
     <string name="ks_btn1">BUY</string>
     <string name="button">BUY</string>
@@ -280,5 +275,8 @@
     <string name="c7_button3">Sign in with Facebook</string>
     <string name="c7_textView3">Create an account ?</string>
     <string name="c7_textView4">Sign Up</string>
+    <string name="create">Create</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="search">Enter Name</string>
 
 </resources>
