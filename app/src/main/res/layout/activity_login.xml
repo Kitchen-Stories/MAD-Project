@@ -4,226 +4,150 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/black"
     tools:context=".LoginActivity">
 
     <ImageView
-        android:id="@+id/c7_imageView1"
+        android:id="@+id/imageView85"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.093"
-        app:srcCompat="@drawable/icons8_enter_90" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/login" />
 
-    <TextView
-        android:id="@+id/c7_textView1"
-        android:layout_width="146dp"
-        android:layout_height="73dp"
-        android:text="@string/c7_textView"
-        android:textColor="@color/black"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="348dp"
+        android:layout_height="551dp"
+        android:background="#87000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView85"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
-        app:layout_constraintStart_toEndOf="@+id/c7_imageView1"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.111" />
+        app:layout_constraintVertical_bias="0.307">
 
-    <ImageView
-        android:id="@+id/c7_imageView2"
-        android:layout_width="65dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="337dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.141"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c7_imageView1"
-        app:layout_constraintVertical_bias="0.593"
-        app:srcCompat="@drawable/icons8_mail_96" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".LoginActivity">
 
-    <EditText
-        android:id="@+id/c7_editTextTextPersonName1"
-        android:layout_width="241dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginRight="56dp"
-        android:layout_marginBottom="348dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/c7_editTextTextPersonName1"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/c7_imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/c7_imageView1"
-        app:layout_constraintVertical_bias="0.416" />
+            <TextView
+                android:id="@+id/c7_textView1"
+                android:layout_width="146dp"
+                android:layout_height="73dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginRight="112dp"
+                android:background="#00FFEB3B"
+                android:text="@string/c7_textView"
+                android:textColor="#FFEB3B"
+                android:textSize="48sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.121" />
 
-    <ImageView
-        android:id="@+id/c7_imageView3"
-        android:layout_width="64dp"
-        android:layout_height="67dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="298dp"
-        android:layout_marginRight="298dp"
-        android:layout_marginBottom="244dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c7_imageView2"
-        app:srcCompat="@drawable/icons8_star_90__1_" />
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="241dp"
+                android:layout_height="57dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="284dp"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:textColor="@color/MButton3c"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-    <EditText
-        android:id="@+id/c7_editTextTextPersonName2"
-        android:layout_width="236dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="47dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginRight="56dp"
-        android:layout_marginBottom="244dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/c7_editTextTextPersonName2"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/c7_imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/c7_editTextTextPersonName1"
-        app:layout_constraintVertical_bias="1.0" />
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="236dp"
+                android:layout_height="62dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="172dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/MButton3c"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/c7_button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
-        android:layout_marginBottom="180dp"
-        android:text="@string/c7_button1"
-        app:backgroundTint="@color/design_default_color_error"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c7_editTextTextPersonName2" />
+            <ImageView
+                android:id="@+id/c7_imageView2"
+                android:layout_width="57dp"
+                android:layout_height="52dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.089"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.428"
+                app:srcCompat="@drawable/microsoftteams_image__1_" />
 
-    <TextView
-        android:id="@+id/c7_textView2"
-        android:layout_width="103dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="135dp"
-        android:text="@string/c7_textView2"
-        android:textColor="@color/black"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.61"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c7_button1"
-        app:layout_constraintVertical_bias="0.0" />
+            <ImageView
+                android:id="@+id/c7_imageView3"
+                android:layout_width="64dp"
+                android:layout_height="67dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.652"
+                app:srcCompat="@drawable/microsoftteams_image__2_" />
 
-    <Button
-        android:id="@+id/c7_button2"
-        android:layout_width="229dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginBottom="82dp"
-        android:text="@string/c7_button2"
-        app:backgroundTint="@color/green_500"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.725"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c7_textView2"
-        app:layout_constraintVertical_bias="1.0" />
+            <TextView
+                android:id="@+id/c7_textView3"
+                android:layout_width="233dp"
+                android:layout_height="34dp"
+                android:text="@string/c7_textView3"
+                android:textColor="@color/darker_gray"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.139"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
 
-    <Button
-        android:id="@+id/c7_button3"
-        android:layout_width="229dp"
-        android:layout_height="36dp"
-        android:layout_marginBottom="50dp"
-        android:text="@string/c7_button3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.703"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c7_button2"
-        app:layout_constraintVertical_bias="0.0" />
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="126dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="248dp"
+                android:layout_marginLeft="248dp"
+                android:text="@string/c7_textView4"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.996" />
 
-    <ImageView
-        android:id="@+id/c7_imageView4"
-        android:layout_width="31dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="101dp"
-        android:layout_marginLeft="101dp"
-        android:layout_marginTop="123dp"
-        android:layout_marginBottom="84dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/c7_button2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c7_imageView3"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/googleg_standard_color_18" />
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c7_button1"
+                app:backgroundTint="@color/design_default_color_error"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.852" />
 
-    <ImageView
-        android:id="@+id/c7_imageView5"
-        android:layout_width="30dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="101dp"
-        android:layout_marginLeft="101dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="47dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/c7_button3"
-        app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c7_imageView4"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/icons8_facebook_logo_90" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <TextView
-        android:id="@+id/c7_textView3"
-        android:layout_width="159dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="209dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/c7_textView3"
-        android:textColor="@color/black"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.021"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c7_imageView3"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/c7_textView4"
-        android:layout_width="126dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="3dp"
-        android:text="@string/c7_textView4"
-        android:textColor="@color/purple_700"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/c7_textView3"
-        app:layout_constraintTop_toBottomOf="@+id/c7_button3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

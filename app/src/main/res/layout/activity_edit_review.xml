@@ -271,7 +271,7 @@
         app:srcCompat="@drawable/icons8_add_image_96" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnRegister"
         android:layout_width="336dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
