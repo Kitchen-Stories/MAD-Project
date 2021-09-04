@@ -275,8 +275,12 @@
     <string name="c7_button3">Sign in with Facebook</string>
     <string name="c7_textView3">Create an account ?</string>
     <string name="c7_textView4">Sign Up</string>
+ 
+    <string name="textView60">Pay here</string>
+ 
     <string name="create">Create</string>
     <string name="create_profile">Create Profile</string>
     <string name="search">Enter Name</string>
+ 
 
 </resources>
