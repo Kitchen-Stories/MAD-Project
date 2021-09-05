@@ -115,7 +115,7 @@
                 app:layout_constraintVertical_bias="0.578" />
 
             <ImageView
-                android:id="@+id/c5_imageView2"
+                android:id="@+id/menuu1C2"
                 android:layout_width="80dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="20dp"
@@ -130,7 +130,7 @@
                 app:srcCompat="@drawable/icons8_menu_vertical_96" />
 
             <ImageView
-                android:id="@+id/c4_imageView8"
+                android:id="@+id/menuaC8"
                 android:layout_width="55dp"
                 android:layout_height="52dp"
                 android:layout_marginStart="16dp"
@@ -292,7 +292,7 @@
             app:layout_constraintVertical_bias="1.0">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/homeC5"
                 android:layout_width="62dp"
                 android:layout_height="41dp"
                 android:layout_marginStart="17dp"
@@ -308,7 +308,7 @@
                 app:srcCompat="@drawable/icons8_home_96" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/addC5"
                 android:layout_width="62dp"
                 android:layout_height="44dp"
                 android:layout_marginStart="26dp"
@@ -320,13 +320,13 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintStart_toEndOf="@+id/homeC5"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.533"
                 app:srcCompat="@drawable/icons8_plus___384" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/cartC5"
                 android:layout_width="57dp"
                 android:layout_height="41dp"
                 android:layout_marginStart="20dp"
@@ -338,12 +338,12 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintStart_toEndOf="@+id/addC5"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/icons8_shopping_cart_96" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/expertC5"
                 android:layout_width="48dp"
                 android:layout_height="36dp"
                 android:layout_marginStart="17dp"
@@ -353,13 +353,13 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.076"
-                app:layout_constraintStart_toEndOf="@+id/imageView4"
+                app:layout_constraintStart_toEndOf="@+id/cartC5"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="1.0"
                 app:srcCompat="@drawable/icons8_chef_150" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/communityC5"
                 android:layout_width="45dp"
                 android:layout_height="32dp"
                 android:layout_marginStart="27dp"
@@ -370,7 +370,7 @@
                 android:layout_marginBottom="14dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintStart_toEndOf="@+id/expertC5"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/icons8_chat_96" />
         </androidx.constraintlayout.widget.ConstraintLayout>

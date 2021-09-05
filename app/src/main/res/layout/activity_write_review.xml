@@ -123,7 +123,7 @@
                 app:layout_constraintVertical_bias="1.0" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/cartC5"
                 android:layout_width="41dp"
                 android:layout_height="45dp"
                 android:layout_marginStart="16dp"
@@ -376,7 +376,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/communityC5"
             android:layout_width="50dp"
             android:layout_height="46dp"
             android:layout_marginStart="4dp"
@@ -389,7 +389,7 @@
             app:srcCompat="@drawable/icons8_home_384" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/profilesC5"
             android:layout_width="64dp"
             android:layout_height="48dp"
             android:layout_marginStart="24dp"
@@ -397,7 +397,7 @@
             android:layout_marginTop="4dp"
             android:layout_marginBottom="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintStart_toEndOf="@+id/communityC5"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.333"
             app:srcCompat="@drawable/icons8_plus___384" />
@@ -432,7 +432,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageView8"
             app:layout_constraintHorizontal_bias="0.539"
-            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintStart_toEndOf="@+id/profilesC5"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.4"
             app:srcCompat="@drawable/icons8_shopping_cart_96" />

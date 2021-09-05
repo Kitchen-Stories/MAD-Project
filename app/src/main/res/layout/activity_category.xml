@@ -155,7 +155,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/cartC5"
         android:layout_width="27dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
@@ -166,7 +166,7 @@
         app:srcCompat="@drawable/icons8_add_90" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/expertC5"
         android:layout_width="27dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
@@ -177,7 +177,7 @@
         app:srcCompat="@drawable/icons8_add_90" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/communityC5"
         android:layout_width="27dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
@@ -188,7 +188,7 @@
         app:srcCompat="@drawable/icons8_add_90" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/profilesC5"
         android:layout_width="27dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
@@ -340,7 +340,7 @@
         android:text="@string/Mtext9"
         android:textColor="@color/Mtext1c"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/cartC5"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
@@ -353,7 +353,7 @@
         android:text="@string/Mtext10"
         android:textColor="@color/Mtext1c"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/expertC5"
         app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     <TextView
@@ -366,7 +366,7 @@
         android:text="@string/Mtext11"
         android:textColor="@color/Mtext1c"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/communityC5"
         app:layout_constraintTop_toTopOf="@+id/textView19" />
 
     <TextView
@@ -379,7 +379,7 @@
         android:text="@string/Mtext12"
         android:textColor="@color/Mtext1c"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/profilesC5"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
     <TextView
