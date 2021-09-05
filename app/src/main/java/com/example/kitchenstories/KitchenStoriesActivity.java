@@ -18,7 +18,7 @@ public class KitchenStoriesActivity extends AppCompatActivity {
         cart = findViewById(R.id.homeS6);
         expert = findViewById(R.id.addS6);
         community = findViewById(R.id.communityM0);
-        profile = findViewById(R.id.profilesM0);
+        profile = findViewById(R.id.menuM0);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(KitchenStoriesActivity.this , KitchenStoriesActivity.class);
