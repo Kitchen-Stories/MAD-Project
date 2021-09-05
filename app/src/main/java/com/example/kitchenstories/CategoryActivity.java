@@ -14,11 +14,11 @@ public class CategoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category);
 
-        home = findViewById(R.id.homeMD);
-        add = findViewById(R.id.addMD);
-        cart = findViewById(R.id.cartMD);
-        expert = findViewById(R.id.expertMD);
-        community = findViewById(R.id.communityMD);
+        home = findViewById(R.id.homeMD1);
+        add = findViewById(R.id.addMD1);
+        cart = findViewById(R.id.chartMD1);
+        expert = findViewById(R.id.expertMD1);
+        community = findViewById(R.id.communityMD1);
         summery = findViewById(R.id.summeryMD);
 
         summery.setOnClickListener(v -> {
