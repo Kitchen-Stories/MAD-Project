@@ -62,7 +62,7 @@
         android:background="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
-        //image
+        //image viwe
 
         <ImageView
             android:id="@+id/imageView10"
