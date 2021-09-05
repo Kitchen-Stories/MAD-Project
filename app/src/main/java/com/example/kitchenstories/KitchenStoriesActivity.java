@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
 
 public class KitchenStoriesActivity extends AppCompatActivity {
@@ -16,8 +15,8 @@ public class KitchenStoriesActivity extends AppCompatActivity {
 
         home = findViewById(R.id.homeM0);
         add = findViewById(R.id.addM0);
-        cart = findViewById(R.id.cartM0);
-        expert = findViewById(R.id.expertM0);
+        cart = findViewById(R.id.homeS6);
+        expert = findViewById(R.id.addS6);
         community = findViewById(R.id.communityM0);
         profile = findViewById(R.id.profilesM0);
 
@@ -37,7 +36,7 @@ public class KitchenStoriesActivity extends AppCompatActivity {
         });
 
         expert.setOnClickListener(v -> {
-            Intent intent = new Intent(KitchenStoriesActivity.this , DisplayExpertActivity.class);
+            Intent intent = new Intent(KitchenStoriesActivity.this , MeetExpertActivity.class);
             startActivity(intent);
         });
 

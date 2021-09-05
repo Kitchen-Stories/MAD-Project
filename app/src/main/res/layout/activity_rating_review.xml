@@ -72,13 +72,13 @@
                 android:layout_marginBottom="4dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/homeM0"
-                app:layout_constraintStart_toEndOf="@+id/imageView9"
+                app:layout_constraintStart_toEndOf="@+id/profileS6"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.8"
                 app:srcCompat="@drawable/icons8_chef_480" />
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/profileS6"
                 android:layout_width="57dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="4dp"
@@ -258,7 +258,7 @@
                 app:srcCompat="@android:drawable/star_off" />
 
             <ImageView
-                android:id="@+id/expertM0"
+                android:id="@+id/addS6"
                 android:layout_width="12dp"
                 android:layout_height="12dp"
                 android:layout_marginStart="188dp"
@@ -273,7 +273,7 @@
                 android:layout_width="12dp"
                 android:layout_height="12dp"
                 android:layout_marginTop="48dp"
-                app:layout_constraintStart_toEndOf="@+id/expertM0"
+                app:layout_constraintStart_toEndOf="@+id/addS6"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@android:drawable/star_off" />
 
@@ -788,5 +788,18 @@
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/profile3"
+        android:layout_width="64dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="122dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:srcCompat="@drawable/icons8_male_user_96" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
