@@ -76,13 +76,13 @@
                 android:layout_marginBottom="4dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/homeM0"
-                app:layout_constraintStart_toEndOf="@+id/imageView9"
+                app:layout_constraintStart_toEndOf="@+id/profileS6"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.8"
                 app:srcCompat="@drawable/icons8_chef_480" />
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/profileS6"
                 android:layout_width="57dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="4dp"

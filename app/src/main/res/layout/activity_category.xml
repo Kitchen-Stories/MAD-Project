@@ -30,13 +30,13 @@
             android:layout_height="61dp"
             android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/cartM0"
+            app:layout_constraintEnd_toStartOf="@+id/homeS6"
             app:layout_constraintHorizontal_bias="0.454"
             app:layout_constraintStart_toEndOf="@+id/homeM0"
             app:srcCompat="@drawable/icons8_plus___96" />
 
         <ImageView
-            android:id="@+id/cartM0"
+            android:id="@+id/homeS6"
             android:layout_width="69dp"
             android:layout_height="61dp"
             android:layout_marginBottom="8dp"
@@ -58,14 +58,14 @@
             app:srcCompat="@drawable/icons8_chat_96" />
 
         <ImageView
-            android:id="@+id/expertM0"
+            android:id="@+id/addS6"
             android:layout_width="64dp"
             android:layout_height="68dp"
             android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/communityM0"
             app:layout_constraintHorizontal_bias="0.678"
-            app:layout_constraintStart_toEndOf="@+id/cartM0"
+            app:layout_constraintStart_toEndOf="@+id/homeS6"
             app:srcCompat="@drawable/icons8_chef_150" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -80,7 +80,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView15"
+            android:id="@+id/cartS6"
             android:layout_width="46dp"
             android:layout_height="39dp"
             android:layout_marginBottom="16dp"
@@ -102,10 +102,10 @@
             android:textColor="@color/Mcaption2color"
             android:textSize="34sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageView16" />
+            app:layout_constraintEnd_toStartOf="@+id/expertS6" />
 
         <ImageView
-            android:id="@+id/imageView16"
+            android:id="@+id/expertS6"
             android:layout_width="34dp"
             android:layout_height="38dp"
             android:layout_marginEnd="16dp"
@@ -210,7 +210,7 @@
         app:srcCompat="@drawable/icons8_add_90" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/profileS6"
         android:layout_width="27dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
@@ -221,7 +221,7 @@
         app:srcCompat="@drawable/icons8_add_90" />
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/communityS6"
         android:layout_width="27dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
@@ -405,7 +405,7 @@
         android:text="@string/Mtext14"
         android:textColor="@color/Mtext1c"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toEndOf="@+id/profileS6"
         app:layout_constraintTop_toTopOf="@+id/textView24" />
 
     <TextView
@@ -418,7 +418,7 @@
         android:text="@string/Mtext15"
         android:textColor="@color/Mtext1c"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintStart_toEndOf="@+id/communityS6"
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <TextView
