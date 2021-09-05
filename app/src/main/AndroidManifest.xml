@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenStories">
-        <activity android:name=".CreateProfile"></activity>
+        <activity android:name=".SummaryReviewActivity"></activity>
+        <activity android:name=".AppSupportActivity" />
+        <activity android:name=".AllReviewActivity" />
+        <activity android:name=".EditReviewActivity" />
+        <activity android:name=".WriteReviewActivity" />
+        <activity android:name=".RatingReviewActivity" />
+        <activity android:name=".CreateProfile" />
         <activity android:name=".TopFoodsActivity" />
         <activity android:name=".CartActivity" />
         <activity android:name=".DeliveryActivity" />
