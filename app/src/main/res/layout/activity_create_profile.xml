@@ -103,7 +103,7 @@
                 app:layout_constraintVertical_bias="1.0">
 
                 <ImageView
-                    android:id="@+id/imageView12"
+                    android:id="@+id/cartM0"
                     android:layout_width="74dp"
                     android:layout_height="49dp"
                     android:layout_marginTop="8dp"
@@ -114,7 +114,7 @@
                     app:srcCompat="@drawable/icons8_home_96" />
 
                 <ImageView
-                    android:id="@+id/imageView14"
+                    android:id="@+id/expertM0"
                     android:layout_width="79dp"
                     android:layout_height="48dp"
                     android:layout_marginStart="16dp"
@@ -162,7 +162,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.928"
-                    app:layout_constraintStart_toStartOf="@+id/imageView12"
+                    app:layout_constraintStart_toStartOf="@+id/cartM0"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.444"
                     app:srcCompat="@drawable/icons8_chat_96" />
