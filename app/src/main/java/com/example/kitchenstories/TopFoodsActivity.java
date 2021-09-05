@@ -19,7 +19,7 @@ public class TopFoodsActivity extends AppCompatActivity {
         expert = findViewById(R.id.expertC1);
         community = findViewById(R.id.communityC5);
         //profile = findViewById(R.id.MenuC1);
-        menub = findViewById(R.id.menuM0);
+        menub = findViewById(R.id.profileM0);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(TopFoodsActivity.this , KitchenStoriesActivity.class);

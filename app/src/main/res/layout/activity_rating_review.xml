@@ -192,6 +192,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.221" />
 
+
         <ImageView
             android:id="@+id/imageView62"
             android:layout_width="15dp"
@@ -600,6 +601,24 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.392" />
 
+            <ImageView
+                android:id="@+id/profileM0"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="27dp"
+                android:layout_marginRight="27dp"
+                android:layout_marginBottom="13dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/mtextview"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_menu_384" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/bottomNavigationView5"
             android:layout_width="387dp"
@@ -784,6 +803,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.025" />
 
+
         <ImageView
             android:id="@+id/imageView89"
             android:layout_width="22dp"
@@ -809,6 +829,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.239" />
+
+    <ImageView
+        android:id="@+id/pastaMD"
+        android:layout_width="64dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="122dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:srcCompat="@drawable/icons8_male_user_96" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
