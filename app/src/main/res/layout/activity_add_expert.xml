@@ -135,7 +135,9 @@
                 app:srcCompat="@drawable/icons8_shopping_cart_96" />
 
             <ImageView
-                android:id="@+id/expertS6"
+
+               android:id="@+id/expertS6"
+
                 android:layout_width="103dp"
                 android:layout_height="52dp"
                 android:layout_marginStart="16dp"

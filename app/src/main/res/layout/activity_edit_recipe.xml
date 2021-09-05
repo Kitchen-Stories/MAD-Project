@@ -356,7 +356,7 @@
                 app:layout_constraintEnd_toEndOf="parent">
 
                 <ImageView
-                    android:id="@+id/imageView10"
+                    android:id="@+id/homeMD"
                     android:layout_width="72dp"
                     android:layout_height="62dp"
                     android:layout_marginBottom="8dp"
@@ -365,29 +365,29 @@
                     app:srcCompat="@drawable/icons8_home_384" />
 
                 <ImageView
-                    android:id="@+id/imageView11"
+                    android:id="@+id/addMD"
                     android:layout_width="65dp"
                     android:layout_height="61dp"
                     android:layout_marginBottom="8dp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView12"
+                    app:layout_constraintEnd_toStartOf="@+id/cartMD"
                     app:layout_constraintHorizontal_bias="0.454"
-                    app:layout_constraintStart_toEndOf="@+id/imageView10"
+                    app:layout_constraintStart_toEndOf="@+id/homeMD"
                     app:srcCompat="@drawable/icons8_plus___384" />
 
                 <ImageView
-                    android:id="@+id/imageView12"
+                    android:id="@+id/cartMD"
                     android:layout_width="69dp"
                     android:layout_height="61dp"
                     android:layout_marginBottom="8dp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView13"
+                    app:layout_constraintEnd_toStartOf="@+id/communityMD"
                     app:layout_constraintHorizontal_bias="0.629"
                     app:layout_constraintStart_toStartOf="parent"
                     app:srcCompat="@drawable/icons8_shopping_cart_96" />
 
                 <ImageView
-                    android:id="@+id/imageView13"
+                    android:id="@+id/communityMD"
                     android:layout_width="69dp"
                     android:layout_height="58dp"
                     android:layout_marginEnd="16dp"
@@ -398,14 +398,14 @@
                     app:srcCompat="@drawable/icons8_chat_96" />
 
                 <ImageView
-                    android:id="@+id/imageView14"
+                    android:id="@+id/expertMD"
                     android:layout_width="66dp"
                     android:layout_height="62dp"
                     android:layout_marginBottom="8dp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView13"
+                    app:layout_constraintEnd_toStartOf="@+id/communityMD"
                     app:layout_constraintHorizontal_bias="0.678"
-                    app:layout_constraintStart_toEndOf="@+id/imageView12"
+                    app:layout_constraintStart_toEndOf="@+id/cartMD"
                     app:srcCompat="@drawable/icons8_chef_150" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
