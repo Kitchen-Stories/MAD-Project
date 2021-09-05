@@ -791,7 +791,7 @@
 
 
     <ImageView
-        android:id="@+id/profile3"
+        android:id="@+id/pastaMD"
         android:layout_width="64dp"
         android:layout_height="59dp"
         android:layout_marginStart="22dp"

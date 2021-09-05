@@ -22,7 +22,7 @@ public class MeetExpertActivity extends AppCompatActivity {
         addExpert = findViewById(R.id.addExpert);
         view1 = findViewById(R.id.profile1);
         view2 = findViewById(R.id.profile2);
-        view3 = findViewById(R.id.profile3);
+        view3 = findViewById(R.id.pastaMD);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(MeetExpertActivity.this , KitchenStoriesActivity.class);
