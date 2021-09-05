@@ -17,6 +17,66 @@
         app:srcCompat="@drawable/pexels_tijana_drndarski_3338681" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="406dp"
+        android:layout_height="83dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/homeM0"
+            android:layout_width="72dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/icons8_home_384" />
+
+        <ImageView
+            android:id="@+id/addM0"
+            android:layout_width="65dp"
+            android:layout_height="61dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/homeS6"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toEndOf="@+id/homeM0"
+            app:srcCompat="@drawable/icons8_plus___384" />
+
+        <ImageView
+            android:id="@+id/homeS6"
+            android:layout_width="69dp"
+            android:layout_height="61dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/communityM0"
+            app:layout_constraintHorizontal_bias="0.629"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/icons8_shopping_cart_96" />
+
+        <ImageView
+            android:id="@+id/communityM0"
+            android:layout_width="69dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/icons8_chat_96" />
+
+        <ImageView
+            android:id="@+id/addS6"
+            android:layout_width="66dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/communityM0"
+            app:layout_constraintHorizontal_bias="0.678"
+            app:layout_constraintStart_toEndOf="@+id/homeS6"
+            app:srcCompat="@drawable/icons8_chef_150" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
         android:layout_width="411dp"
         android:layout_height="603dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView95"
@@ -439,6 +499,7 @@
                 app:srcCompat="@drawable/icons8_image_gallery_96" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
