@@ -92,6 +92,7 @@
     <string name="tlable_17">Write a Review </string>
     <string name="tlable_18">App Support </string>
     <string name="tlable_19">Others Review </string>
+    <string name="tlable_20">Sahan Kumarasiri </string>
 
     <string name="tbtn_1">Submit Your Review</string>
     <string name="tbtn_2">Save Changes</string>
@@ -130,6 +131,7 @@
     <string name="tedit_1">Enter Message </string>
     <string name="tedit_2">Enter the Title </string>
     <string name="tedit_3">Write your comment here </string>
+    <string name="tedit_4">Enter the Category </string>
 
 
     <string name="Mcaption1">Add Recipe</string>
@@ -275,12 +277,12 @@
     <string name="c7_button3">Sign in with Facebook</string>
     <string name="c7_textView3">Create an account ?</string>
     <string name="c7_textView4">Sign Up</string>
- 
+
     <string name="textView60">Pay here</string>
- 
+
     <string name="create">Create</string>
     <string name="create_profile">Create Profile</string>
     <string name="search">Enter Name</string>
- 
+
 
 </resources>
