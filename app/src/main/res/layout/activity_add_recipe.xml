@@ -62,6 +62,7 @@
         android:background="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
+        //image
 
         <ImageView
             android:id="@+id/imageView10"
