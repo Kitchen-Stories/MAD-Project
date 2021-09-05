@@ -203,7 +203,7 @@
                 app:srcCompat="@drawable/microsoftteams_image__4_" />
 
             <ImageView
-                android:id="@+id/profile3"
+                android:id="@+id/pastaMD"
                 android:layout_width="130dp"
                 android:layout_height="69dp"
                 app:layout_constraintBottom_toBottomOf="parent"
