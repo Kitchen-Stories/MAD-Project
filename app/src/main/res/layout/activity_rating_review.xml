@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <ImageView
-            android:id="@+id/homeS6"
+            android:id="@+id/homeT8"
             android:layout_width="74dp"
             android:layout_height="49dp"
             android:layout_marginTop="8dp"
@@ -42,7 +42,7 @@
             app:srcCompat="@drawable/icons8_home_96" />
 
         <ImageView
-            android:id="@+id/addS6"
+            android:id="@+id/addT8"
             android:layout_width="79dp"
             android:layout_height="48dp"
             android:layout_marginStart="16dp"
@@ -56,7 +56,7 @@
             app:srcCompat="@drawable/icons8_plus___96" />
 
         <ImageView
-            android:id="@+id/cartS6"
+            android:id="@+id/cartT8"
             android:layout_width="85dp"
             android:layout_height="49dp"
             android:layout_marginBottom="12dp"
@@ -68,7 +68,7 @@
 
         <ImageView
 
-            android:id="@+id/expertS6"
+            android:id="@+id/expertT8"
 
             android:layout_width="103dp"
             android:layout_height="52dp"
@@ -82,7 +82,7 @@
             app:srcCompat="@drawable/icons8_chef_150" />
 
         <ImageView
-            android:id="@+id/communityS6"
+            android:id="@+id/communityT8"
             android:layout_width="73dp"
             android:layout_height="51dp"
             android:layout_marginStart="16dp"
@@ -92,7 +92,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.928"
-            app:layout_constraintStart_toStartOf="@+id/homeS6"
+            app:layout_constraintStart_toStartOf="@+id/homeT8"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.444"
             app:srcCompat="@drawable/icons8_chat_96" />
@@ -139,7 +139,7 @@
             app:srcCompat="@drawable/icons8_menu_vertical_96" />
 
         <ImageView
-            android:id="@+id/profileM0"
+            android:id="@+id/profileT8"
             android:layout_width="35dp"
             android:layout_height="35dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -602,7 +602,7 @@
             app:layout_constraintVertical_bias="0.392" />
 
         <ImageView
-            android:id="@+id/imageView89"
+            android:id="@+id/write"
             android:layout_width="22dp"
             android:layout_height="26dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -629,7 +629,7 @@
             app:layout_constraintVertical_bias="0.918" />
 
         <ImageView
-            android:id="@+id/imageView95"
+            android:id="@+id/appSup"
             android:layout_width="26dp"
             android:layout_height="29dp"
             app:layout_constraintBottom_toBottomOf="parent"
