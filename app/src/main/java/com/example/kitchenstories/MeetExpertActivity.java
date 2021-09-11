@@ -25,9 +25,11 @@ public class MeetExpertActivity extends AppCompatActivity {
         community = findViewById(R.id.communityS6);
         profile = findViewById(R.id.profileS6);
         addExpert = findViewById(R.id.addExpert);
+
         view1 = findViewById(R.id.profile1);
         view2 = findViewById(R.id.profile2);
         view3 = findViewById(R.id.profile3);
+
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(MeetExpertActivity.this , KitchenStoriesActivity.class);

@@ -8,7 +8,7 @@
     tools:context=".AddExpertActivity">
 
     <ImageView
-        android:id="@+id/imageView90"
+        android:id="@+id/ThanduriMD"
         android:layout_width="408dp"
         android:layout_height="615dp"
         app:layout_constraintEnd_toEndOf="parent"

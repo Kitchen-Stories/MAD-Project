@@ -8,7 +8,7 @@
     tools:context=".ViewProfileActivity">
 
     <ImageView
-        android:id="@+id/imageView92"
+        android:id="@+id/kebabi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -206,7 +206,7 @@
                 app:layout_constraintVertical_bias="0.504" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/PastaRec4"
                 android:layout_width="141dp"
                 android:layout_height="45dp"
                 android:text="@string/slabel_1"
@@ -220,7 +220,7 @@
                 app:layout_constraintVertical_bias="0.314" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/saveEdit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/sbtn_6"
