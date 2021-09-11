@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 public class CartActivity extends AppCompatActivity {
-    ImageView home , add , cart , expert , community , menuc,profile;
+    ImageView home , add , cart , expert , community , cmenu2,profile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +19,7 @@ public class CartActivity extends AppCompatActivity {
         expert = findViewById(R.id.expertC5);
         community = findViewById(R.id.communityC5);
         //profile = findViewById(R.id.profilesC3);
-        menuc = findViewById(R.id.menucC7);
+        cmenu2 = findViewById(R.id.cmenu2);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(CartActivity.this , KitchenStoriesActivity.class);
@@ -50,7 +50,7 @@ public class CartActivity extends AppCompatActivity {
             Intent intent = new Intent(CartActivity.this , CreateProfile.class);
             startActivity(intent);
         });*/
-        menuc.setOnClickListener(v -> {
+        cmenu2.setOnClickListener(v -> {
             Intent intent = new Intent(CartActivity.this , DeliveryActivity.class);
             startActivity(intent);
         });

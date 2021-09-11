@@ -35,12 +35,12 @@
             android:background="#77E6D112"
             app:layout_constraintBottom_toTopOf="@+id/c5_textView3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
 
             <ImageView
-                android:id="@+id/c5_imageView1"
+                android:id="@+id/cmenu2"
                 android:layout_width="54dp"
                 android:layout_height="44dp"
                 android:layout_marginTop="2dp"
@@ -65,12 +65,12 @@
                 android:layout_marginBottom="12dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/c5_imageView1"
+                app:layout_constraintStart_toEndOf="@+id/cmenu2"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/icons8_menu_vertical_96" />
 
             <TextView
-                android:id="@+id/textView60"
+                android:id="@+id/textView_cart"
                 android:layout_width="120dp"
                 android:layout_height="34dp"
                 android:layout_marginStart="80dp"
@@ -84,7 +84,7 @@
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/menuu1C2"
-                app:layout_constraintStart_toEndOf="@+id/c5_imageView1"
+                app:layout_constraintStart_toEndOf="@+id/cmenu2"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -222,24 +222,42 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/c4_bottomNavigationView2" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <EditText
+            android:id="@+id/c5_editTextTextPersonName1"
+            android:layout_width="209dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="276dp"
+            android:background="@color/MButton3c"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/c5_editTextTextPersonName1"
+            android:textColor="@color/cardview_dark_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.282"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c4_bottomNavigationView2"
+            app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/c4_textView1"
-        android:layout_width="144dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="134dp"
-        android:layout_marginRight="134dp"
-        android:layout_marginBottom="17dp"
-        android:hint="@string/c5_textView1"
-        android:text="@string/c5_textView1"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.647" />
+        <EditText
+            android:id="@+id/c5_editTextTextPersonName2"
+            android:layout_width="210dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/MButton3c"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/c5_editTextTextPersonName2"
+            android:textColor="@color/cardview_dark_background"
+            app:layout_constraintBottom_toTopOf="@+id/c5_textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c5_editTextTextPersonName1"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TableLayout
         android:id="@+id/tableLayout"
@@ -345,6 +363,10 @@
                 android:textColor="@color/black" />
         </TableRow>
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
     </TableLayout>
 
     <TableRow
@@ -353,11 +375,11 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/c5_textView2"
@@ -374,39 +396,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
-
-    <EditText
-        android:id="@+id/c5_editTextTextPersonName1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="230dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/c5_editTextTextPersonName1"
-        android:textColor="@color/cardview_dark_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c5_textView2"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <EditText
-        android:id="@+id/c5_editTextTextPersonName2"
-        android:layout_width="210dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginBottom="176dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/c5_editTextTextPersonName2"
-        android:textColor="@color/cardview_dark_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.223"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/c5_editTextTextPersonName1"
-        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

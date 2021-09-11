@@ -5,9 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class FavouriteActivity extends AppCompatActivity {
-    ImageView home , add , cart , expert , community ,menuu, profile;
+    ImageView home , add , cart , expert , community ,menuu, profile,imageView;
+    int imagevalue;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +22,8 @@ public class FavouriteActivity extends AppCompatActivity {
         expert = findViewById(R.id.expertC5);
         community = findViewById(R.id.communityC5);
         //profile = findViewById(R.id.profilesC0);
-        menuu = findViewById(R.id.menuu1C2);
+        menuu = findViewById(R.id.cmenu2);
+        //c5_imageView1=findViewById(R.id.findViewById(R.id.menuu1C2);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(FavouriteActivity.this , KitchenStoriesActivity.class);
@@ -54,6 +58,28 @@ public class FavouriteActivity extends AppCompatActivity {
             Intent intent = new Intent(FavouriteActivity.this ,TopFoodsActivity.class);
             startActivity(intent);
         });
+
+       /* Intent intent = getIntent();
+        String message = intent.getStringExtra(TopFoodsActivity.EXTRA_MESSAGE);
+        TextView FYFname1 = findViewById(R.id.FYFname1);
+        FYFname1.setText(message);
+
+
+        String message1 = intent.getStringExtra(TopFoodsActivity.EXTRA_MESSAGE1);
+        TextView TFprice1 = findViewById(R.id.TFprice1);
+        TFprice1.setText(message1);
+        imageView = findViewById(R.id.imageView98);
+// check if any value sent from previous activity
+        Bundle bundle = getIntent().getExtras();
+// if bundle is not null then get the image value
+        if (bundle != null) {
+            imagevalue = bundle.getInt("image");
+        }
+        imageView.setImageResource(imagevalue);*/
+
+
+
+
 
     }
 }
