@@ -8,7 +8,7 @@
     tools:context=".FavouriteActivity">
 
     <ImageView
-        android:id="@+id/pastaMD"
+        android:id="@+id/profile3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/favourite"

@@ -8,7 +8,7 @@
     tools:context=".AddExpertActivity">
 
     <ImageView
-        android:id="@+id/imageView90"
+        android:id="@+id/ThanduriMD"
         android:layout_width="408dp"
         android:layout_height="615dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -195,7 +195,7 @@
                 app:layout_constraintVertical_bias="0.061" />
 
             <EditText
-                android:id="@+id/username2"
+                android:id="@+id/expertName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -240,7 +240,7 @@
                 app:layout_constraintVertical_bias="0.471" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/expertCarrier"
                 android:layout_width="239dp"
                 android:layout_height="46dp"
                 android:ems="10"
@@ -271,7 +271,7 @@
                 app:layout_constraintVertical_bias="0.642" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName6"
+                android:id="@+id/expertWorks"
                 android:layout_width="236dp"
                 android:layout_height="42dp"
                 android:ems="10"
@@ -288,33 +288,19 @@
                 app:layout_constraintVertical_bias="0.703" />
 
             <ImageView
-                android:id="@+id/imageView91"
-                android:layout_width="56dp"
-                android:layout_height="52dp"
+                android:id="@+id/cameraImage"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.194"
+                app:layout_constraintHorizontal_bias="0.053"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.877"
+                app:layout_constraintVertical_bias="0.934"
                 app:srcCompat="@drawable/icons8_image_256" />
 
-            <TextView
-                android:id="@+id/textView64"
-                android:layout_width="219dp"
-                android:layout_height="53dp"
-                android:text="@string/slabel_5"
-                android:textColor="#FFEB3B"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.75"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.899" />
-
             <EditText
-                android:id="@+id/email2"
+                android:id="@+id/expertEmail"
                 android:layout_width="239dp"
                 android:layout_height="46dp"
                 android:ems="10"
@@ -330,12 +316,24 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.335" />
 
+            <Button
+                android:id="@+id/buttonCamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take a photo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.838"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.868" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/saveExpert"
         android:layout_width="127dp"
         android:layout_height="37dp"
         android:background="@color/light_blue"
