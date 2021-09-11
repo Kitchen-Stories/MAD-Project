@@ -20,7 +20,7 @@ public class KitchenStoriesActivity extends AppCompatActivity {
         community = findViewById(R.id.communityM0);
 
         profile = findViewById(R.id.profileM0);
-        pasta = findViewById(R.id.pastaMD);
+        pasta = findViewById(R.id.profile3);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(KitchenStoriesActivity.this , KitchenStoriesActivity.class);

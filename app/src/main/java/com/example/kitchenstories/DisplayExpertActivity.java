@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class DisplayExpertActivity extends AppCompatActivity {
-    ImageView home , add , cart , expert , community , profile , edit , addExpert;
+    ImageView home , add , cart , expert , community , profile , addExpert , imageView;
+    int imagevalue;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +22,6 @@ public class DisplayExpertActivity extends AppCompatActivity {
         community = findViewById(R.id.communityS6);
         profile = findViewById(R.id.profileS3);
         addExpert = findViewById(R.id.addExpert1);
-        edit = findViewById(R.id.edit);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(DisplayExpertActivity.this , KitchenStoriesActivity.class);
@@ -57,10 +58,44 @@ public class DisplayExpertActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        edit.setOnClickListener(v -> {
-            Intent intent = new Intent(DisplayExpertActivity.this , EditExpertActivity.class);
-            startActivity(intent);
-        });
+        //Get the Intent that started this activity and extract the string
+        Intent intent = getIntent();
+        String message = intent.getStringExtra(MeetExpertActivity.EXTRA_MESSAGE);
 
+        //Captures the layout's TextView and set the string as its text
+        TextView dexpert1 = findViewById(R.id.dexpert1);
+        dexpert1.setText(message);
+
+        String message1 = intent.getStringExtra(MeetExpertActivity.EXTRA_MESSAGE1);
+
+        //Captures the layout's TextView and set the string as its text
+        TextView dexpert2 = findViewById(R.id.dexpert2);
+        dexpert2.setText(message1);
+
+        String message2 = intent.getStringExtra(MeetExpertActivity.EXTRA_MESSAGE2);
+
+        //Captures the layout's TextView and set the string as its text
+        TextView dexpert3 = findViewById(R.id.dexpert3);
+        dexpert3.setText(message2);
+
+        String message3 = intent.getStringExtra(MeetExpertActivity.EXTRA_MESSAGE3);
+
+        //Captures the layout's TextView and set the string as its text
+        TextView dexpert4 = findViewById(R.id.dexpert4);
+        dexpert4.setText(message3);
+
+        // initialise the layout
+        imageView = findViewById(R.id.isr);
+
+        // check if any value sent from previous activity
+        Bundle bundle = getIntent().getExtras();
+
+        // if bundle is not null then get the image value
+        if (bundle != null) {
+            imagevalue = bundle.getInt("image");
+        }
+        imageView.setImageResource(imagevalue);
     }
+
+
 }

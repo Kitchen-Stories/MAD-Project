@@ -254,7 +254,7 @@
                 app:srcCompat="@drawable/pexels_chan_walrus_958545" />
 
             <ImageView
-                android:id="@+id/pastaMD"
+                android:id="@+id/profile3"
                 android:layout_width="150dp"
                 android:layout_height="113dp"
                 android:layout_marginBottom="116dp"
