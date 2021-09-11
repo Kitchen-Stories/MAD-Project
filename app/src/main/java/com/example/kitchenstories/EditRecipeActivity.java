@@ -44,5 +44,6 @@ public class EditRecipeActivity extends AppCompatActivity {
             Intent intent = new Intent(EditRecipeActivity.this , RatingReviewActivity.class);
             startActivity(intent);
         });
+
     }
 }

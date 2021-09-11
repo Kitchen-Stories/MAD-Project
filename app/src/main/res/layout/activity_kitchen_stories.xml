@@ -117,11 +117,11 @@
                     android:textSize="30sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.224"
-                    app:layout_constraintStart_toEndOf="@+id/cart1"
+                    app:layout_constraintStart_toEndOf="@+id/profileM0"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/cart1"
+                    android:id="@+id/profileM0"
                     android:layout_width="39dp"
                     android:layout_height="40dp"
                     android:layout_marginStart="16dp"
@@ -167,7 +167,7 @@
                 app:layout_constraintTop_toTopOf="@+id/frameLayout2" />
 
             <TextView
-                android:id="@+id/textView28"
+                android:id="@+id/FoodName1"
                 android:layout_width="102dp"
                 android:layout_height="32dp"
                 android:layout_marginTop="128dp"
@@ -180,7 +180,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
             <TextView
-                android:id="@+id/textView29"
+                android:id="@+id/FoodName2"
                 android:layout_width="92dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="120dp"
@@ -193,7 +193,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
 
             <TextView
-                android:id="@+id/textView30"
+                android:id="@+id/FoodName3"
                 android:layout_width="89dp"
                 android:layout_height="30dp"
                 android:layout_marginBottom="84dp"
@@ -206,7 +206,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
-                android:id="@+id/textView31"
+                android:id="@+id/FoodName4"
                 android:layout_width="119dp"
                 android:layout_height="32dp"
                 android:layout_marginBottom="76dp"
@@ -232,7 +232,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/profile1"
+                android:id="@+id/KebabMD"
                 android:layout_width="148dp"
                 android:layout_height="97dp"
                 android:layout_marginTop="24dp"
@@ -243,7 +243,7 @@
                 app:srcCompat="@drawable/pexels_lgh_1256875" />
 
             <ImageView
-                android:id="@+id/profile2"
+                android:id="@+id/GarlicMD"
                 android:layout_width="154dp"
                 android:layout_height="144dp"
                 android:layout_marginTop="8dp"
@@ -254,7 +254,7 @@
                 app:srcCompat="@drawable/pexels_chan_walrus_958545" />
 
             <ImageView
-                android:id="@+id/profile3"
+                android:id="@+id/pastaMD"
                 android:layout_width="150dp"
                 android:layout_height="113dp"
                 android:layout_marginBottom="116dp"
@@ -265,7 +265,7 @@
                 app:srcCompat="@drawable/pexels_ella_olsson_1640777" />
 
             <ImageView
-                android:id="@+id/imageView90"
+                android:id="@+id/ThanduriMD"
                 android:layout_width="167dp"
                 android:layout_height="111dp"
                 android:layout_marginBottom="116dp"

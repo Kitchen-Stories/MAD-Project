@@ -180,45 +180,46 @@
 
             <ImageView
                 android:id="@+id/profile1"
-                android:layout_width="142dp"
-                android:layout_height="wrap_content"
+                android:layout_width="88dp"
+                android:layout_height="97dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.192"
-                app:srcCompat="@drawable/microsoftteams_image__4_" />
+                app:layout_constraintVertical_bias="0.178"
+                app:srcCompat="@drawable/chathurika" />
 
             <ImageView
                 android:id="@+id/profile2"
-                android:layout_width="140dp"
-                android:layout_height="wrap_content"
+                android:layout_width="92dp"
+                android:layout_height="102dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.368"
-                app:srcCompat="@drawable/microsoftteams_image__4_" />
+                app:layout_constraintVertical_bias="0.376"
+                app:srcCompat="@drawable/dimuthu" />
 
             <ImageView
                 android:id="@+id/profile3"
-                android:layout_width="130dp"
-                android:layout_height="69dp"
+                android:layout_width="92dp"
+                android:layout_height="71dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.009"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.582"
-                app:srcCompat="@drawable/microsoftteams_image__4_" />
+                app:layout_constraintVertical_bias="0.587"
+                app:srcCompat="@drawable/suranga" />
 
             <TextView
-                android:id="@+id/textView65"
+                android:id="@+id/expert5"
                 android:layout_width="219dp"
                 android:layout_height="51dp"
                 android:hint="@string/stext_5"
+                android:text="@string/stext_5"
                 android:textColor="@color/MButton3c"
                 android:textColorHint="@color/darker_gray"
                 android:textSize="20sp"
@@ -231,10 +232,11 @@
                 app:layout_constraintVertical_bias="0.561" />
 
             <TextView
-                android:id="@+id/textView66"
+                android:id="@+id/expert6"
                 android:layout_width="220dp"
                 android:layout_height="49dp"
                 android:hint="@string/stext_6"
+                android:text="@string/stext_6"
                 android:textColor="@color/MButton3c"
                 android:textColorHint="@android:color/darker_gray"
                 android:textSize="20sp"
@@ -246,11 +248,12 @@
                 app:layout_constraintVertical_bias="0.609" />
 
             <TextView
-                android:id="@+id/textView67"
+                android:id="@+id/expert4"
                 android:layout_width="217dp"
                 android:layout_height="53dp"
                 android:layout_marginTop="156dp"
                 android:hint="@string/stext_4"
+                android:text="@string/stext_4"
                 android:textColor="@color/MButton3c"
                 android:textColorHint="@android:color/darker_gray"
                 android:textSize="20sp"
@@ -260,10 +263,11 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView68"
+                android:id="@+id/expert3"
                 android:layout_width="217dp"
                 android:layout_height="49dp"
                 android:hint="@string/stext_3"
+                android:text="@string/stext_3"
                 android:textColor="@color/MButton3c"
                 android:textColorHint="@android:color/darker_gray"
                 android:textSize="20sp"
@@ -276,10 +280,11 @@
                 app:layout_constraintVertical_bias="0.368" />
 
             <TextView
-                android:id="@+id/textView69"
+                android:id="@+id/expert1"
                 android:layout_width="220dp"
                 android:layout_height="50dp"
                 android:hint="@string/stext_1"
+                android:text="@string/stext_16"
                 android:textColor="@color/MButton3c"
                 android:textColorHint="@android:color/darker_gray"
                 android:textSize="20sp"
@@ -292,10 +297,11 @@
                 app:layout_constraintVertical_bias="0.185" />
 
             <TextView
-                android:id="@+id/textView70"
+                android:id="@+id/expert2"
                 android:layout_width="253dp"
                 android:layout_height="39dp"
                 android:hint="@string/stext_2"
+                android:text="@string/stext_2"
                 android:textColor="@color/MButton3c"
                 android:textColorHint="@android:color/darker_gray"
                 android:textSize="20sp"

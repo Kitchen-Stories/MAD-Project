@@ -33,7 +33,7 @@
 
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/expertCarrier"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="164dp"
@@ -48,7 +48,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName6"
+                android:id="@+id/expertWorks"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="104dp"
@@ -108,7 +108,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/saveEdit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="40dp"

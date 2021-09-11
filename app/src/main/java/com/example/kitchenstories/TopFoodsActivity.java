@@ -28,12 +28,16 @@ public class TopFoodsActivity extends AppCompatActivity {
         expert = findViewById(R.id.expertC1);
         community = findViewById(R.id.communityC5);
         //profile = findViewById(R.id.MenuC1);
+ 
         menub = findViewById(R.id.cart1);
         gotocart=findViewById(R.id.MenuCha1);
          //button =(Button) findViewById(R.id.button15TFV);
         foodView1 = findViewById(R.id.ThandooriC);
         //view1c=findViewById(R.id.button15TFV);
        // friedR1=findViewById(R.id.friedR1);
+ 
+        menub = findViewById(R.id.profileM0);
+ 
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(TopFoodsActivity.this , KitchenStoriesActivity.class);
