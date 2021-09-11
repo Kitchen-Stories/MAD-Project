@@ -109,7 +109,7 @@
             app:srcCompat="@drawable/image" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/saveExpert"
             android:layout_width="89dp"
             android:layout_height="41dp"
             android:background="#39A13D"
@@ -148,7 +148,7 @@
             app:backgroundTint="@color/green_500"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintStart_toEndOf="@+id/saveExpert"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.439" />
 
@@ -300,11 +300,11 @@
             app:layout_constraintVertical_bias="0.135" />
 
         <ImageView
-            android:id="@+id/imageView91"
+            android:id="@+id/cameraImage"
             android:layout_width="135dp"
             android:layout_height="115dp"
             android:src="@drawable/burgerjpg"
-            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintBottom_toTopOf="@+id/saveExpert"
             app:layout_constraintEnd_toStartOf="@+id/imageButton2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageButton_1"
@@ -335,7 +335,7 @@
             app:layout_constraintBottom_toTopOf="@+id/btnRegister"
             app:layout_constraintEnd_toStartOf="@+id/imageButton4"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/saveExpert" />
 
         <ImageView
             android:id="@+id/imageView94"
