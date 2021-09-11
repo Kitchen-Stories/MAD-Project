@@ -179,7 +179,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView60"
+                android:id="@+id/textView_cart"
                 android:layout_width="141dp"
                 android:layout_height="45dp"
                 android:text="@string/slabel_1"
