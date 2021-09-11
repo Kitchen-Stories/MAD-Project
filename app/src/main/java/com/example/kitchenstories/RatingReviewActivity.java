@@ -5,9 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class RatingReviewActivity extends AppCompatActivity {
-    ImageView home , add , cart , expert , community, profile , appSupport , writeReview;
+    public static final String EXTRA_MESSAGE = "text1";
+    public static final String EXTRA_MESSAGE1 = "text2";
+    public static final String EXTRA_MESSAGE2 = "text3";
+    ImageView home , add , cart , expert , community, profile , appSupport , writeReview, view1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +25,7 @@ public class RatingReviewActivity extends AppCompatActivity {
         profile = findViewById(R.id.profileT8);
         appSupport = findViewById(R.id.appSup);
         writeReview = findViewById(R.id.write);
+        view1 = findViewById(R.id.picT1);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(RatingReviewActivity.this , KitchenStoriesActivity.class);
@@ -48,7 +53,7 @@ public class RatingReviewActivity extends AppCompatActivity {
         });
 
         profile.setOnClickListener(v -> {
-            Intent intent = new Intent(RatingReviewActivity.this , AllReviewActivity.class);
+            Intent intent = new Intent(RatingReviewActivity.this , CreateProfile.class);
             startActivity(intent);
         });
 
@@ -59,6 +64,21 @@ public class RatingReviewActivity extends AppCompatActivity {
 
         writeReview.setOnClickListener(v -> {
             Intent intent = new Intent(RatingReviewActivity.this , WriteReviewActivity.class);
+            startActivity(intent);
+        });
+
+        view1.setOnClickListener(v -> {
+            Intent intent = new Intent(RatingReviewActivity.this , CustomerDetailsViewActivity.class);
+            intent.putExtra("image", R.drawable.cus1);
+            TextView textView = findViewById(R.id.cusName);
+            String message = textView.getText().toString();
+            intent.putExtra(EXTRA_MESSAGE , message);
+            TextView textView1 = findViewById(R.id.revTitle);
+            String message1 = textView1.getText().toString();
+            intent.putExtra(EXTRA_MESSAGE1 , message1);
+            TextView textView2 = findViewById(R.id.cusComment);
+            String message2 = textView2.getText().toString();
+            intent.putExtra(EXTRA_MESSAGE2 , message2);
             startActivity(intent);
         });
 

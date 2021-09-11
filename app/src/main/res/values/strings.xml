@@ -73,6 +73,7 @@
     <string name="tcaption_4">All Review </string>
     <string name="tcaption_5">App Support </string>
     <string name="tcaption_6">Summary Reviews </string>
+    <string name="tcaption_7">Customer Details </string>
 
     <string name="tlable_1">Cancel </string>
     <string name="tlable_2">Review Title </string>
@@ -93,6 +94,7 @@
     <string name="tlable_18">App Support </string>
     <string name="tlable_19">Others Review </string>
     <string name="tlable_20">Sahan Kumarasiri </string>
+    <string name="tlable_22">Amali Sanjeewani </string>
 
     <string name="tbtn_1">Submit Your Review</string>
     <string name="tbtn_2">Save Changes</string>
@@ -126,6 +128,9 @@
     <string name="ttext_26">Out of 5</string>
     <string name="ttext_27">180 Ratings</string>
     <string name="ttext_28">Customer Comments</string>
+    <string name="ttext_29">Initially, I wanna thank you all dear staff for producing this useful app and vital app actually, I was baffled and know nothing about cooking and making perfect foods, now I can discover my path for making foods and to become perfect at cooking.</string>
+    <string name="ttext_30">Interesting app. I am always looking for new things other than the same thing all the time. Should be good </string>
+    <string name="ttext_31">Woow Amazing App</string>
 
 
     <string name="tedit_1">Enter Message </string>
