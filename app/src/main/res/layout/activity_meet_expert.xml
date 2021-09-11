@@ -179,7 +179,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:id="@+id/profile1"
+                android:id="@+id/KebabMD"
                 android:layout_width="142dp"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -191,7 +191,7 @@
                 app:srcCompat="@drawable/microsoftteams_image__4_" />
 
             <ImageView
-                android:id="@+id/profile2"
+                android:id="@+id/GarlicMD"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
