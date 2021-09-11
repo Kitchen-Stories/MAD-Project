@@ -44,11 +44,7 @@ public class KitchenStoriesActivity extends AppCompatActivity {
         GarlicMD = findViewById(R.id.GarlicMD);
         ThanduriMD = findViewById(R.id.ThanduriMD);
         profile = findViewById(R.id.profileM0);
-
         pastaMD = findViewById(R.id.pastaMD);
-
-        pasta = findViewById(R.id.profile3);
-
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(KitchenStoriesActivity.this , KitchenStoriesActivity.class);
