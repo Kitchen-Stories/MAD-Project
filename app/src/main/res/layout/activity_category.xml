@@ -362,7 +362,7 @@
 
                 android:id="@+id/Create3"
 
-                
+
 
                 android:layout_width="191dp"
                 android:layout_height="27dp"
@@ -379,7 +379,7 @@
 
                 android:id="@+id/Create4"
 
-                
+
 
                 android:layout_width="191dp"
                 android:layout_height="27dp"
@@ -406,10 +406,10 @@
 
                 app:layout_constraintTop_toBottomOf="@+id/Create3" />
 
-            
+
 
             <TextView
-                
+
                 android:id="@+id/Create6"
                 android:layout_width="191dp"
                 android:layout_height="27dp"
@@ -426,9 +426,9 @@
             <TextView
                 android:id="@+id/Create7"
 
-               
 
-   
+
+
                 android:layout_width="191dp"
                 android:layout_height="27dp"
                 android:layout_marginStart="24dp"
@@ -441,7 +441,7 @@
 
                 app:layout_constraintTop_toTopOf="@+id/Create6" />
 
-                
+
 
 
             <TextView
@@ -458,7 +458,7 @@
 
                 app:layout_constraintTop_toBottomOf="@+id/Create6" />
 
-                
+
 
 
             <TextView
@@ -475,7 +475,7 @@
 
                 app:layout_constraintTop_toBottomOf="@+id/Create7" />
 
-                
+
 
 
             <ImageView

@@ -15,8 +15,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenStories">
+
         <activity android:name=".ReviewDeleteActivity"></activity>
         <activity android:name=".ListReviewActivity" />
+
+        <activity android:name=".DeleteAndPlayMusicActivity"></activity>
+        <activity android:name=".ListExpertsActivity" />
+
         <activity android:name=".CustomerDetailsViewActivity" />
         <activity android:name=".SummaryReviewActivity" />
         <activity android:name=".AppSupportActivity" />
