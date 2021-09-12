@@ -78,7 +78,7 @@
     <string name="tlable_1">Cancel </string>
     <string name="tlable_2">Review Title </string>
     <string name="tlable_3">What is your Rate  </string>
-    <string name="tlable_4">Category </string>
+    <string name="tlable_4">Name </string>
     <string name="tlable_6">Select category </string>
     <string name="tlable_7">Your Comment </string>
     <string name="tlable_8">Upload Photos </string>
@@ -96,10 +96,11 @@
     <string name="tlable_20">Sahan Kumarasiri </string>
     <string name="tlable_22">Amali Sanjeewani </string>
 
-    <string name="tbtn_1">Submit Your Review</string>
+    <string name="tbtn_1">Add Review</string>
     <string name="tbtn_2">Save Changes</string>
     <string name="tbtn_3">See more.... </string>
     <string name="tbtn_4">Calculate</string>
+    <string name="tbtn_5">Take a Photo</string>
 
     <string name="ttext_1">Sahan</string>
     <string name="ttext_2">12/05/2021</string>
@@ -136,7 +137,7 @@
     <string name="tedit_1">Enter Message </string>
     <string name="tedit_2">Enter the Title </string>
     <string name="tedit_3">Write your comment here </string>
-    <string name="tedit_4">Enter the Category </string>
+    <string name="tedit_4">Enter Your Name </string>
 
 
     <string name="Mcaption1">Add Recipe</string>
@@ -288,7 +289,7 @@
     <string name="create">Create</string>
     <string name="create_profile">Create Profile</string>
     <string name="search">Enter Name</string>
- 
+
     <string name="foodName">Fried Rice</string>
     <string name="TFprice1">Rs.950.00</string>
     <string name="foodName2">ThandooriChicken</string>
@@ -298,7 +299,6 @@
     <string name="TextPrice22">Rs.450.00</string>
     <string name="button15TFV">View</string>
     <string name="textView_cart">Your Cart</string>
- 
 
 
 </resources>

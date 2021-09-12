@@ -12,6 +12,7 @@ public class RatingReviewActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE1 = "text2";
     public static final String EXTRA_MESSAGE2 = "text3";
     ImageView home , add , cart , expert , community, profile , appSupport , writeReview, view1;
+    TextView writeRev, appSup, seeAllList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +27,9 @@ public class RatingReviewActivity extends AppCompatActivity {
         appSupport = findViewById(R.id.appSup);
         writeReview = findViewById(R.id.write);
         view1 = findViewById(R.id.picT1);
+        writeRev = findViewById(R.id.writeR);
+        appSup = findViewById(R.id.appS);
+        seeAllList = findViewById(R.id.seeAll);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(RatingReviewActivity.this , KitchenStoriesActivity.class);
@@ -64,6 +68,21 @@ public class RatingReviewActivity extends AppCompatActivity {
 
         writeReview.setOnClickListener(v -> {
             Intent intent = new Intent(RatingReviewActivity.this , WriteReviewActivity.class);
+            startActivity(intent);
+        });
+
+        appSup.setOnClickListener(v -> {
+            Intent intent = new Intent(RatingReviewActivity.this , AppSupportActivity.class);
+            startActivity(intent);
+        });
+
+        writeRev.setOnClickListener(v -> {
+            Intent intent = new Intent(RatingReviewActivity.this , WriteReviewActivity.class);
+            startActivity(intent);
+        });
+
+        seeAllList.setOnClickListener(v -> {
+            Intent intent = new Intent(RatingReviewActivity.this , ListReviewActivity.class);
             startActivity(intent);
         });
 
