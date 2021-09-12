@@ -135,7 +135,7 @@
 
             <ImageView
 
-                
+
 
                 android:id="@+id/expertS6"
 
@@ -182,7 +182,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView60"
+                android:id="@+id/textView_cart"
                 android:layout_width="141dp"
                 android:layout_height="45dp"
                 android:text="@string/slabel_1"
@@ -196,7 +196,7 @@
                 app:layout_constraintVertical_bias="0.061" />
 
             <EditText
-                android:id="@+id/expertName"
+                android:id="@+id/editexpertName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -241,7 +241,7 @@
                 app:layout_constraintVertical_bias="0.471" />
 
             <EditText
-                android:id="@+id/expertCarrier"
+                android:id="@+id/editexpertCarrier"
                 android:layout_width="239dp"
                 android:layout_height="46dp"
                 android:ems="10"
@@ -272,7 +272,7 @@
                 app:layout_constraintVertical_bias="0.642" />
 
             <EditText
-                android:id="@+id/expertWorks"
+                android:id="@+id/editexpertWorks"
                 android:layout_width="236dp"
                 android:layout_height="42dp"
                 android:ems="10"
@@ -289,7 +289,7 @@
                 app:layout_constraintVertical_bias="0.703" />
 
             <ImageView
-                android:id="@+id/cameraImage"
+                android:id="@+id/editcameraImage"
                 android:layout_width="56dp"
                 android:layout_height="52dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -300,22 +300,8 @@
                 app:layout_constraintVertical_bias="0.877"
                 app:srcCompat="@drawable/icons8_image_256" />
 
-            <TextView
-                android:id="@+id/textView64"
-                android:layout_width="219dp"
-                android:layout_height="53dp"
-                android:text="@string/slabel_5"
-                android:textColor="#FFEB3B"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.75"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.899" />
-
             <EditText
-                android:id="@+id/expertEmail"
+                android:id="@+id/editexpertEmail"
                 android:layout_width="239dp"
                 android:layout_height="46dp"
                 android:ems="10"
@@ -331,12 +317,37 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.335" />
 
+            <Button
+                android:id="@+id/TakePhoto"
+                android:layout_width="184dp"
+                android:layout_height="39dp"
+                android:text="Take a photo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.683"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.876" />
+
+            <Button
+                android:id="@+id/editListAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List all"
+                app:backgroundTint="@color/Mtext3c"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.947"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.042" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/saveChanges"
         android:layout_width="175dp"
         android:layout_height="39dp"
         android:background="@color/light_blue"
