@@ -55,7 +55,6 @@ public class FavouriteActivity extends AppCompatActivity {
             startActivity(intent);
         });*/
 
-
        /* Intent intent = getIntent();
         String message = intent.getStringExtra(TopFoodsActivity.EXTRA_MESSAGE);
         TextView FYFname1 = findViewById(R.id.FYFname1);
