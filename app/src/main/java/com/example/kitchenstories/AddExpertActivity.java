@@ -19,7 +19,7 @@ import com.database.ExpertDBHelper;
 
 public class AddExpertActivity extends AppCompatActivity {
     EditText name , email , carrier , works;
-    Button save;
+    Button save , list;
     ImageView home , add , cart , expert , community , profile , imageView;
     private static final int CAMERA_REQUEST = 1888;
 
@@ -40,17 +40,18 @@ public class AddExpertActivity extends AppCompatActivity {
         community = findViewById(R.id.communityS6);
         profile = findViewById(R.id.profileS6);
 
-        name = findViewById(R.id.expertName);
-        email = findViewById(R.id.expertEmail);
-        carrier = findViewById(R.id.expertCarrier);
-        works = findViewById(R.id.expertWorks);
+        name = findViewById(R.id.editexpertName);
+        email = findViewById(R.id.editexpertEmail);
+        carrier = findViewById(R.id.editexpertCarrier);
+        works = findViewById(R.id.editexpertWorks);
+        list = findViewById(R.id.listExpertBtn);
 
         save = findViewById(R.id.saveExpert);
 
         DB = new ExpertDBHelper(AddExpertActivity.this);
         builder = new AlertDialog.Builder(this);
 
-        save.setOnClickListener(new View.OnClickListener() {
+        save.setOnClickListener(new View.OnClickListener() { //ADDITION TO DATABASE
             @Override
             public void onClick(View v) {
                 String Name = name.getText().toString();
@@ -100,7 +101,7 @@ public class AddExpertActivity extends AppCompatActivity {
 
             }
 
-    });
+        });
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(AddExpertActivity.this , KitchenStoriesActivity.class);
@@ -132,7 +133,12 @@ public class AddExpertActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        imageView = findViewById((R.id.cameraImage));
+        list.setOnClickListener(v -> {
+            Intent intent = new Intent(AddExpertActivity.this , ListExpertsActivity.class);
+            startActivity(intent);
+        });
+
+        imageView = findViewById((R.id.editcameraImage));
         Button photoButton = findViewById(R.id.buttonCamera);
 
         photoButton.setOnClickListener(v -> {
