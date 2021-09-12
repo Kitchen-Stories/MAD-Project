@@ -22,7 +22,7 @@ public class FavouriteActivity extends AppCompatActivity {
         expert = findViewById(R.id.expertC5);
         community = findViewById(R.id.communityC5);
         //profile = findViewById(R.id.profilesC0);
-        menuu = findViewById(R.id.cmenu2);
+     
         //c5_imageView1=findViewById(R.id.findViewById(R.id.menuu1C2);
 
         home.setOnClickListener(v -> {
@@ -54,11 +54,7 @@ public class FavouriteActivity extends AppCompatActivity {
             Intent intent = new Intent(KitchenStoriesActivity.this , CreateProfile.class);
             startActivity(intent);
         });*/
-        menuu.setOnClickListener(v -> {
-            Intent intent = new Intent(FavouriteActivity.this ,TopFoodsActivity.class);
-            startActivity(intent);
-        });
-
+       
        /* Intent intent = getIntent();
         String message = intent.getStringExtra(TopFoodsActivity.EXTRA_MESSAGE);
         TextView FYFname1 = findViewById(R.id.FYFname1);
