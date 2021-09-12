@@ -23,6 +23,7 @@ public class FavouriteActivity extends AppCompatActivity {
         community = findViewById(R.id.communityC5);
 
 
+
         home.setOnClickListener(v -> {
             Intent intent = new Intent(FavouriteActivity.this , KitchenStoriesActivity.class);
             startActivity(intent);
@@ -53,6 +54,7 @@ public class FavouriteActivity extends AppCompatActivity {
             startActivity(intent);
         });*/
 
+
        /* Intent intent = getIntent();
         String message = intent.getStringExtra(TopFoodsActivity.EXTRA_MESSAGE);
         TextView FYFname1 = findViewById(R.id.FYFname1);
@@ -70,6 +72,7 @@ public class FavouriteActivity extends AppCompatActivity {
             imagevalue = bundle.getInt("image");
         }
         imageView.setImageResource(imagevalue);*/
+
 
 
 
