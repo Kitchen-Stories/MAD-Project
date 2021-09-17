@@ -15,22 +15,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenStories">
-
+        <activity android:name=".SearchProfile"></activity>
         <activity
             android:name=".DeleteWithPlayMusicActivity"
             android:exported="true" />
         <activity
             android:name=".RecipeListOfActivity"
             android:exported="true" />
-
-
-        <activity android:name=".ReviewDeleteActivity"></activity>
+        <activity android:name=".ReviewDeleteActivity" />
         <activity android:name=".ListReviewActivity" />
-
-        <activity android:name=".DeleteAndPlayMusicActivity"></activity>
+        <activity android:name=".DeleteAndPlayMusicActivity" />
         <activity android:name=".ListExpertsActivity" />
-
-
         <activity android:name=".CustomerDetailsViewActivity" />
         <activity android:name=".SummaryReviewActivity" />
         <activity android:name=".AppSupportActivity" />

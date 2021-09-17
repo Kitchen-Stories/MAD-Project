@@ -90,7 +90,7 @@ public class DeleteAndPlayMusicActivity extends AppCompatActivity {
                 //Creating dialog box
                 AlertDialog alert = builder.create();
                 //Setting the title manually
-                alert.setTitle("Expert Registration");
+                alert.setTitle("Expert Deletion");
                 alert.show();
             }
         });
