@@ -4,12 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class FavouriteActivity extends AppCompatActivity {
     ImageView home , add , cart , expert , community ,menuu, profile,imageView;
     int imagevalue;
+    Button ADD;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,7 @@ public class FavouriteActivity extends AppCompatActivity {
         expert = findViewById(R.id.expertC5);
         community = findViewById(R.id.communityC5);
         //profile = findViewById(R.id.profilesC0);
+        ADD=findViewById(R.id.c2_button1);
      
         //c5_imageView1=findViewById(R.id.findViewById(R.id.menuu1C2);
 
@@ -47,6 +50,11 @@ public class FavouriteActivity extends AppCompatActivity {
 
         community.setOnClickListener(v -> {
             Intent intent = new Intent(FavouriteActivity.this , RatingReviewActivity.class);
+            startActivity(intent);
+        });
+
+        ADD.setOnClickListener(v -> {
+            Intent intent = new Intent(FavouriteActivity.this , AddCartActivity.class);
             startActivity(intent);
         });
 

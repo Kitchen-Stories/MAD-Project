@@ -288,7 +288,7 @@
     <string name="create">Create</string>
     <string name="create_profile">Create Profile</string>
     <string name="search">Enter Name</string>
- 
+
     <string name="foodName">Fried Rice</string>
     <string name="TFprice1">Rs.950.00</string>
     <string name="foodName2">ThandooriChicken</string>
@@ -298,7 +298,6 @@
     <string name="TextPrice22">Rs.450.00</string>
     <string name="button15TFV">View</string>
     <string name="textView_cart">Your Cart</string>
- 
 
 
 </resources>
