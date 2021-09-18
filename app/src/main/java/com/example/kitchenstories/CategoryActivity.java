@@ -44,7 +44,7 @@ public class CategoryActivity extends AppCompatActivity {
         });
 
         expert.setOnClickListener(v -> {
-            Intent intent = new Intent(CategoryActivity.this , DisplayExpertActivity.class);
+            Intent intent = new Intent(CategoryActivity.this , MeetExpertActivity.class);
             startActivity(intent);
         });
 

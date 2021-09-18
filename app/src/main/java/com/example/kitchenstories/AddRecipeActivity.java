@@ -142,7 +142,7 @@ public class AddRecipeActivity extends AppCompatActivity {
         });
 
         expert.setOnClickListener(v -> {
-            Intent intent = new Intent(AddRecipeActivity.this , DisplayExpertActivity.class);
+            Intent intent = new Intent(AddRecipeActivity.this , MeetExpertActivity.class);
             startActivity(intent);
         });
         ButtonListRecipe.setOnClickListener(v -> {
