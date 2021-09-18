@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class CategoryActivity extends AppCompatActivity {
     ImageView summery ;
-    ImageView home , add , cart , expert , community , imageView;
+    ImageView home , add , cart , expert , community , imageView,goback;
     int imagevalue;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class CategoryActivity extends AppCompatActivity {
         expert = findViewById(R.id.expertMD1);
         community = findViewById(R.id.communityMD1);
         summery = findViewById(R.id.summeryMD);
+        goback = findViewById(R.id.idimageViewback);
 
         summery.setOnClickListener(v -> {
             Intent intent = new Intent(CategoryActivity.this , SummaryOfRecipeActivity.class);
@@ -50,6 +51,11 @@ public class CategoryActivity extends AppCompatActivity {
 
         community.setOnClickListener(v -> {
             Intent intent = new Intent(CategoryActivity.this , RatingReviewActivity.class);
+            startActivity(intent);
+        });
+
+        goback.setOnClickListener(v -> {
+            Intent intent = new Intent(CategoryActivity.this , CreateProfile.class);
             startActivity(intent);
         });
 
