@@ -20,7 +20,7 @@ import com.database.RecipeDBHelper;
 public class EditRecipeActivity extends AppCompatActivity {
     EditText name1 , name2 , name3 , name4 , name5 , name6 , name7 , name8 , name9 , name10 , name11 ;
     Button saveM1 , editM1;
-    ImageView home , add , cart , expert , community , imageView ;
+    ImageView home , add , cart , expert , community , imageView ,goback;
     TextView r;
     private static final int CAMERA_REQUEST = 1888;
 
@@ -39,6 +39,7 @@ public class EditRecipeActivity extends AppCompatActivity {
         cart = findViewById(R.id.chartMD1);
         expert = findViewById(R.id.expertMD1);
         community = findViewById(R.id.communityMD1);
+        goback = findViewById(R.id.imageViewgoprof);
 
         name1 = findViewById(R.id.editTextRecipe1);
         name2 = findViewById(R.id.editTextRecipe2);
@@ -219,6 +220,11 @@ public class EditRecipeActivity extends AppCompatActivity {
 
         community.setOnClickListener(v -> {
             Intent intent = new Intent(EditRecipeActivity.this , RatingReviewActivity.class);
+            startActivity(intent);
+        });
+
+        goback.setOnClickListener(v -> {
+            Intent intent = new Intent(EditRecipeActivity.this , CreateProfile.class);
             startActivity(intent);
         });
 
