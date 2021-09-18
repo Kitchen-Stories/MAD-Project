@@ -27,43 +27,45 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".EditRecipeActivity"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="0dp">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".EditRecipeActivity">
 
 
             <EditText
-                android:id="@+id/expertCarrier"
+                android:id="@+id/editTextRecipe1"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
-                android:layout_marginTop="164dp"
+                android:layout_marginTop="124dp"
+                android:ems="10"
+                android:hint="@string/MinputText4"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="#CCFFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.927"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextRecipe2"
+                android:layout_width="189dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="148dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
-                android:hint="@string/MinputText1"
+                android:hint="@string/MinputText4"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#CCFFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/expertWorks"
-                android:layout_width="189dp"
-                android:layout_height="52dp"
-                android:layout_marginTop="104dp"
-                android:ems="10"
-                android:hint="@string/MinputText5"
-                android:inputType="textPersonName"
-                android:textColorHint="#CCFFFFFF"
-                android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.927"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/bottomNavigationView2" />
-
-            <EditText
-                android:id="@+id/editTextTextPersonName7"
+                android:id="@+id/editTextRecipe5"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="229dp"
@@ -72,13 +74,14 @@
                 android:ems="10"
                 android:hint="@string/MinputText4"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#CCFFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName15"
+                android:id="@+id/editTextRecipe4"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="201dp"
@@ -87,28 +90,43 @@
                 android:ems="10"
                 android:hint="@string/MinputText3"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#CCFFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName16"
+                android:id="@+id/editTextRecipe3"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
-                android:layout_marginTop="136dp"
+                android:layout_marginTop="176dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
                 android:hint="@string/MinputText2"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#CCFFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/saveEdit"
+                android:id="@+id/goBackList"
+                android:layout_width="91dp"
+                android:layout_height="58dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="68dp"
+                android:text="List All"
+                android:textSize="16sp"
+                app:backgroundTint="@color/MButton2c"
+                app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/saveEditRecepe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="40dp"
@@ -121,7 +139,7 @@
                 app:layout_constraintEnd_toEndOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName20"
+                android:id="@+id/editTextRecipe11"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="416dp"
@@ -130,13 +148,14 @@
                 android:ems="10"
                 android:hint="@string/MinputText6"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#FFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName21"
+                android:id="@+id/editTextRecipe10"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="388dp"
@@ -145,6 +164,7 @@
                 android:ems="10"
                 android:hint="@string/MinputText6"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#FFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -184,7 +204,7 @@
                 app:srcCompat="@drawable/icons8_add_90" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName23"
+                android:id="@+id/editTextRecipe9"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="360dp"
@@ -193,13 +213,14 @@
                 android:ems="10"
                 android:hint="@string/MinputText6"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#FFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName24"
+                android:id="@+id/editTextRecipe8"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="330dp"
@@ -208,13 +229,14 @@
                 android:ems="10"
                 android:hint="@string/MinputText6"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#FFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName25"
+                android:id="@+id/editTextRecipe7"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="298dp"
@@ -223,6 +245,7 @@
                 android:ems="10"
                 android:hint="@string/MinputText6"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#FFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -268,6 +291,7 @@
                 android:layout_marginTop="76dp"
                 android:fontFamily="@font/aclonica"
                 android:text="@string/Mtopic2"
+                android:textColor="#FFEB3B"
                 android:textSize="28sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.88"
@@ -275,7 +299,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView35"
+                android:id="@+id/takeEditPhtoRecipe"
                 android:layout_width="56dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="36dp"
@@ -413,7 +437,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName18"
+                android:id="@+id/editTextRecipe6"
                 android:layout_width="189dp"
                 android:layout_height="52dp"
                 android:layout_marginEnd="172dp"
@@ -422,13 +446,14 @@
                 android:ems="10"
                 android:hint="@string/MinputText6"
                 android:inputType="textPersonName"
+                android:textColor="@color/white"
                 android:textColorHint="#FFFFFF"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
                 app:layout_constraintEnd_toEndOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView96"
+                android:id="@+id/editImageViewRecipe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -440,6 +465,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
- 
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

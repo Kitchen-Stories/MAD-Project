@@ -178,7 +178,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <EditText
-                android:id="@+id/editTextPhone2"
+                android:id="@+id/eProf3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
@@ -197,7 +197,7 @@
                 app:layout_constraintVertical_bias="0.519" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/eSave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/sbtn_3"
@@ -210,24 +210,7 @@
                 app:layout_constraintVertical_bias="0.9" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="@string/sedit_7"
-                android:inputType="textPersonName"
-                android:textColor="@color/MButton3c"
-                android:textColorHint="@color/darker_gray"
-                android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.338"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.673" />
-
-            <EditText
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/eProf2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -244,7 +227,7 @@
                 app:layout_constraintVertical_bias="0.372" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName37"
+                android:id="@+id/eProf1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -317,6 +300,36 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.616" />
+
+            <EditText
+                android:id="@+id/eProf4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/sedit_7"
+                android:inputType="textPersonName"
+                android:textColor="@color/MButton3c"
+                android:textColorHint="@color/darker_gray"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.314"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.697" />
+
+            <Button
+                android:id="@+id/eList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="List"
+                app:backgroundTint="@color/Mtext3c"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.976"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.008" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -178,10 +178,10 @@
             app:layout_constraintVertical_bias="0.373">
 
             <TextView
-                android:id="@+id/textView41"
+                android:id="@+id/prof1"
                 android:layout_width="178dp"
                 android:layout_height="41dp"
-                android:hint="@string/stext_32"
+                android:textColor="@color/MButton3c"
                 android:textColorHint="@color/darker_gray"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -219,20 +219,6 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.314" />
 
-            <Button
-                android:id="@+id/saveEdit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/sbtn_6"
-                android:textColor="@color/white"
-                app:backgroundTint="@color/purple_700"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.074"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.957" />
-
             <TextView
                 android:id="@+id/textView45"
                 android:layout_width="133dp"
@@ -248,10 +234,10 @@
                 app:layout_constraintVertical_bias="0.583" />
 
             <TextView
-                android:id="@+id/textView48"
+                android:id="@+id/prof4"
                 android:layout_width="167dp"
                 android:layout_height="45dp"
-                android:hint="@string/stext_35"
+                android:textColor="@color/MButton3c"
                 android:textColorHint="@color/darker_gray"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -262,10 +248,10 @@
                 app:layout_constraintVertical_bias="0.586" />
 
             <TextView
-                android:id="@+id/textView47"
+                android:id="@+id/prof3"
                 android:layout_width="168dp"
                 android:layout_height="43dp"
-                android:hint="@string/stext_34"
+                android:textColor="@color/MButton3c"
                 android:textColorHint="@color/darker_gray"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -275,25 +261,11 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.498" />
 
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/sbtn_7"
-                android:textColor="@color/white"
-                app:backgroundTint="@color/red"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.916"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.957" />
-
             <TextView
-                android:id="@+id/textView42"
+                android:id="@+id/prof2"
                 android:layout_width="291dp"
                 android:layout_height="78dp"
-                android:hint="@string/stext_33"
+                android:textColor="@color/MButton3c"
                 android:textColorHint="@color/darker_gray"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -330,6 +302,31 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.077"
                 app:srcCompat="@drawable/microsoftteams_image__4_" />
+
+            <Button
+                android:id="@+id/editProf"
+                android:layout_width="157dp"
+                android:layout_height="45dp"
+                android:text="edit profile"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.121"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.933" />
+
+            <Button
+                android:id="@+id/deleteProf"
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:text="delete profile"
+                app:backgroundTint="@color/red"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.935"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.941" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

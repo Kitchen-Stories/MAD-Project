@@ -23,10 +23,15 @@ public class FavouriteActivity extends AppCompatActivity {
         cart = findViewById(R.id.cartC5);
         expert = findViewById(R.id.expertC5);
         community = findViewById(R.id.communityC5);
+ 
         //profile = findViewById(R.id.profilesC0);
         ADD=findViewById(R.id.c2_button1);
      
         //c5_imageView1=findViewById(R.id.findViewById(R.id.menuu1C2);
+ 
+
+
+ 
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(FavouriteActivity.this , KitchenStoriesActivity.class);
@@ -62,7 +67,8 @@ public class FavouriteActivity extends AppCompatActivity {
             Intent intent = new Intent(KitchenStoriesActivity.this , CreateProfile.class);
             startActivity(intent);
         });*/
-       
+
+
        /* Intent intent = getIntent();
         String message = intent.getStringExtra(TopFoodsActivity.EXTRA_MESSAGE);
         TextView FYFname1 = findViewById(R.id.FYFname1);
@@ -80,6 +86,7 @@ public class FavouriteActivity extends AppCompatActivity {
             imagevalue = bundle.getInt("image");
         }
         imageView.setImageResource(imagevalue);*/
+
 
 
 

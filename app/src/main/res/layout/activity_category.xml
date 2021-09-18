@@ -19,7 +19,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="409dp"
         android:layout_height="607dp"
-        android:background="#66000000"
+        android:background="#4D000000"
         app:layout_constraintBottom_toBottomOf="@+id/cameraImage"
         app:layout_constraintEnd_toEndOf="@+id/cameraImage"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,9 +28,9 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".CategoryActivity1"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="0dp">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".CategoryActivity1">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/bottomNavigationView"
@@ -162,7 +162,7 @@
                 android:layout_height="41dp"
                 android:layout_marginTop="188dp"
                 android:text="@string/Mtext1"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.116"
@@ -276,7 +276,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:text="@string/Mtext3"
-                android:textColor="#16121E"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -289,7 +289,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:text="@string/Mtext4"
-                android:textColor="#16121E"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -302,7 +302,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:text="@string/Mtext5"
-                android:textColor="#16121E"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -315,7 +315,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:text="@string/Mtext6"
-                android:textColor="#16121E"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -328,7 +328,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:text="@string/Mtext7"
-                android:textColor="#16121E"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -362,7 +362,6 @@
 
                 android:id="@+id/Create3"
 
-                
 
                 android:layout_width="191dp"
                 android:layout_height="27dp"
@@ -379,7 +378,6 @@
 
                 android:id="@+id/Create4"
 
-                
 
                 android:layout_width="191dp"
                 android:layout_height="27dp"
@@ -406,10 +404,9 @@
 
                 app:layout_constraintTop_toBottomOf="@+id/Create3" />
 
-            
 
             <TextView
-                
+
                 android:id="@+id/Create6"
                 android:layout_width="191dp"
                 android:layout_height="27dp"
@@ -426,9 +423,7 @@
             <TextView
                 android:id="@+id/Create7"
 
-               
 
-   
                 android:layout_width="191dp"
                 android:layout_height="27dp"
                 android:layout_marginStart="24dp"
@@ -440,8 +435,6 @@
                 app:layout_constraintStart_toEndOf="@+id/imageView9"
 
                 app:layout_constraintTop_toTopOf="@+id/Create6" />
-
-                
 
 
             <TextView
@@ -458,8 +451,6 @@
 
                 app:layout_constraintTop_toBottomOf="@+id/Create6" />
 
-                
-
 
             <TextView
                 android:id="@+id/Create9"
@@ -474,8 +465,6 @@
                 app:layout_constraintStart_toEndOf="@+id/imageView18"
 
                 app:layout_constraintTop_toBottomOf="@+id/Create7" />
-
-                
 
 
             <ImageView

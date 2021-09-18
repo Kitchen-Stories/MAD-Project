@@ -277,6 +277,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="140dp"
                     android:hint="@string/mtble_4"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.045"
@@ -290,6 +291,7 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginBottom="140dp"
                     android:hint="@string/mtble_8"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.476"
@@ -301,6 +303,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="140dp"
                     android:hint="@string/mtble_12"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.954"
@@ -313,6 +316,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginLeft="16dp"
                     android:hint="@string/mtble_5"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -322,6 +326,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="@string/mtble_9"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -333,6 +338,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="100dp"
                     android:hint="@string/mtble_13"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.954"
@@ -344,17 +350,19 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="56dp"
                     android:hint="@string/mtble_6"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.045"
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView35"
+                    android:id="@+id/takeEditPhtoRecipe"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="56dp"
                     android:hint="@string/mtble_10"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -365,6 +373,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="56dp"
                     android:hint="@string/mtble_14"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.954"
@@ -378,6 +387,7 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginBottom="16dp"
                     android:hint="@string/mtble_7"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -387,6 +397,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:hint="@string/mtble_11"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -399,6 +410,7 @@
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="16dp"
                     android:hint="@string/mtble_15"
+                    android:textColorHint="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />
 

@@ -42,77 +42,70 @@ public class ExpertDBHelper extends SQLiteOpenHelper {
         else
             return true;
     }
-    //DISPLAY
-//    public List readAllInfo(){
-//        SQLiteDatabase db = getReadableDatabase();
-//
-//        String[] projection ={
-//                ExpertMaster.Experts._ID,
-//                ExpertMaster.Experts.NAME,
-//                ExpertMaster.Experts.EMAIL,
-//                ExpertMaster.Experts.CARRIER,
-//                ExpertMaster.Experts.WORKS_AT,
-//        };
-//
-//        String sortOrder = ExpertMaster.Experts.NAME + "DESC";
-//
-//        Cursor cursor = db.query(
-//                ExpertMaster.Experts.TABLE_NAME, //Add experts to query
-//                projection,                     //the columns to return
-//                null,                   //the columns for the WHERE clause
-//                null,               //the values for the WHERE clause
-//                null,                  //don't group the rows
-//                null,                   //don't filter by row groups
-//                sortOrder                      //the sort order
-//        );
-//        List name = new ArrayList<>();
-//        List email = new ArrayList<>();
-//        List carrier = new ArrayList<>();
-//        List works = new ArrayList<>();
-//
-//        while (cursor.moveToNext()){
-//            String Name = cursor.getString(cursor.getColumnIndexOrThrow(ExpertMaster.Experts.NAME));
-//            String Email = cursor.getString(cursor.getColumnIndexOrThrow(ExpertMaster.Experts.EMAIL));
-//            String Carrier = cursor.getString(cursor.getColumnIndexOrThrow(ExpertMaster.Experts.CARRIER));
-//            String Works = cursor.getString(cursor.getColumnIndexOrThrow(ExpertMaster.Experts.WORKS_AT));
-//            name.add(Name);
-//            email.add(Email);
-//            carrier.add(Carrier);
-//            works.add(Works);
-//        }
-//        cursor.close();
-//        return name;
-//    }
-//    //DELETE
-//    public void deleteInfo(String name){
-//        SQLiteDatabase db = getReadableDatabase();
-//
-//        String selection = ExpertMaster.Experts.NAME + " Like ?";
-//
-//        String[] selectionArgs = { name };
-//
-//        db.delete(ExpertMaster.Experts.TABLE_NAME , selection ,selectionArgs);
-//    }
-//    //UPDATE
-//    public void updateInfo(String name , String email , String carrier , String works){
-//        SQLiteDatabase db = getReadableDatabase();
-//
-//        ContentValues contentValues = new ContentValues();
-//        contentValues.put(ExpertMaster.Experts.NAME , name);
-//        contentValues.put(ExpertMaster.Experts.EMAIL , email);
-//        contentValues.put(ExpertMaster.Experts.CARRIER , carrier);
-//        contentValues.put(ExpertMaster.Experts.WORKS_AT , works);
-//
-//        String selection = ExpertMaster.Experts.NAME + " LIKE ?";
-//        String[] selectionArgs = {name};
-//
-//        int count = db.update(
-//                ExpertMaster.Experts.TABLE_NAME,
-//                contentValues,
-//                selection,
-//                selectionArgs
-//        );
-//
-//    }
+    //DELETE
+    public Boolean deleteInfo(String name){
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        String selection = "name" + " Like ?";
+
+        String[] selectionArgs = { name };
+
+        long result = db.delete("experts" , selection ,selectionArgs);
+        if(result==-1) return false;
+        else
+            return true;
+    }
+
+    public ArrayList<ExpertModal> readExperts() {
+        // on below line we are creating a
+        // database for reading our database.
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        // on below line we are creating a cursor with query to read data from database.
+        Cursor cursorExperts = db.rawQuery("SELECT * FROM " + "experts", null);
+
+        // on below line we are creating a new array list.
+        ArrayList<ExpertModal> expertModalArrayList = new ArrayList<>();
+
+        // moving our cursor to first position.
+        if (cursorExperts.moveToFirst()) {
+            do {
+                // on below line we are adding the data from cursor to our array list.
+                expertModalArrayList.add(new ExpertModal(cursorExperts.getString(0),
+                        cursorExperts.getString(1),
+                        cursorExperts.getString(2),
+                        cursorExperts.getString(3)));
+            } while (cursorExperts.moveToNext());
+            // moving our cursor to next.
+        }
+        // at last closing our cursor
+        // and returning our array list.
+        cursorExperts.close();
+        return expertModalArrayList;
+    }
+    //UPDATE
+    public Boolean updateInfo(String name , String email , String carrier , String works){
+        SQLiteDatabase db = getReadableDatabase();
+
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("name" , name);
+        contentValues.put("email" , email);
+        contentValues.put("carrier" , carrier);
+        contentValues.put("works" , works);
+
+        String selection = "name" + " LIKE ?";
+        String[] selectionArgs = {name};
+
+        int count = db.update(
+               "experts",
+                contentValues,
+                selection,
+                selectionArgs
+        );
+
+        if(count==-1) return false;
+        else
+            return true;
+    }
 }
 
