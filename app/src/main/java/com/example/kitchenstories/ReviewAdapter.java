@@ -30,6 +30,16 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
         this.context = context;
     }
 
+    // method for filtering our recyclerview items.
+    public void filterList(ArrayList<ReviewModal> filterllist) {
+        // below line is to add our filtered
+        // list in our course array list.
+        reviewModalArrayList = filterllist;
+        // below line is to notify our adapter
+        // as change in recycler view data.
+        notifyDataSetChanged();
+    }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

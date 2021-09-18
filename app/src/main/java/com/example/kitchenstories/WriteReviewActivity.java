@@ -10,6 +10,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 import android.app.AlertDialog;
@@ -20,7 +21,8 @@ import com.database.WriteReviewDBHeler;
 public class WriteReviewActivity extends AppCompatActivity {
     EditText name , title , comment;
     Button save, ViewList;
-    ImageView home , add , cart , expert , community , back, imageView;
+    ImageView home , add , cart , expert , community , back, imageView, search, cal;
+
     private static final int CAMERA_REQUEST = 1888;
 
     AlertDialog.Builder builder;
@@ -39,6 +41,10 @@ public class WriteReviewActivity extends AppCompatActivity {
         expert = findViewById(R.id.expertT8);
         community = findViewById(R.id.communityT8);
         back = findViewById(R.id.pBack);
+        search = findViewById(R.id.revSearch);
+        cal = findViewById(R.id.revCal);
+
+
 
         name = findViewById(R.id.customerName);
         title = findViewById(R.id.reviewTitle);
@@ -137,6 +143,17 @@ public class WriteReviewActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        search.setOnClickListener(v -> {
+            Intent intent = new Intent(WriteReviewActivity.this , SearchReviewActivity.class);
+            startActivity(intent);
+        });
+
+        cal.setOnClickListener(v -> {
+            Intent intent = new Intent(WriteReviewActivity.this , ReviewCalculation.class);
+            startActivity(intent);
+        });
+
+
         imageView = findViewById((R.id.imageCam));
         Button photoButtonR = findViewById(R.id.reviewButton);
 
@@ -144,6 +161,8 @@ public class WriteReviewActivity extends AppCompatActivity {
             Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
             startActivityForResult(cameraIntent , CAMERA_REQUEST);
         });
+
+
 
         //DATABASE INTERACTION GOES HERE-------------------------------------------------------
 

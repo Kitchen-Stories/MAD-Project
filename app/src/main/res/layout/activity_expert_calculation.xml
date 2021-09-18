@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WriteReviewActivity">
+    tools:context=".ExpertCalculation">
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/imageView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pexels_ready_made_3847707" />
+        app:srcCompat="@drawable/calculationexpert" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bottomNavigationView"
@@ -29,7 +29,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <ImageView
-            android:id="@+id/homeT8"
+            android:id="@+id/homeS6"
             android:layout_width="74dp"
             android:layout_height="49dp"
             android:layout_marginTop="8dp"
@@ -40,7 +40,7 @@
             app:srcCompat="@drawable/icons8_home_96" />
 
         <ImageView
-            android:id="@+id/addT8"
+            android:id="@+id/addS6"
             android:layout_width="79dp"
             android:layout_height="48dp"
             android:layout_marginStart="16dp"
@@ -54,7 +54,7 @@
             app:srcCompat="@drawable/icons8_plus___96" />
 
         <ImageView
-            android:id="@+id/cartT8"
+            android:id="@+id/cartS6"
             android:layout_width="85dp"
             android:layout_height="49dp"
             android:layout_marginBottom="12dp"
@@ -66,7 +66,8 @@
 
         <ImageView
 
-            android:id="@+id/expertT8"
+
+            android:id="@+id/expertS6"
 
             android:layout_width="103dp"
             android:layout_height="52dp"
@@ -80,7 +81,7 @@
             app:srcCompat="@drawable/icons8_chef_150" />
 
         <ImageView
-            android:id="@+id/communityT8"
+            android:id="@+id/communityS6"
             android:layout_width="73dp"
             android:layout_height="51dp"
             android:layout_marginStart="16dp"
@@ -90,7 +91,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.928"
-            app:layout_constraintStart_toStartOf="@+id/homeT8"
+            app:layout_constraintStart_toStartOf="@+id/homeS6"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.444"
             app:srcCompat="@drawable/icons8_chat_96" />
@@ -99,256 +100,236 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bottomNavigationView2"
-        android:layout_width="415dp"
-        android:layout_height="62dp"
+        android:layout_width="411dp"
+        android:layout_height="51dp"
         android:background="#52000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
         <ImageView
-            android:id="@+id/pBack"
-            android:layout_width="41dp"
-            android:layout_height="45dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
+            android:id="@+id/profileS6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintEnd_toEndOf="@+id/cartC5"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.647"
-            app:srcCompat="@drawable/icons8_back_96" />
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/icons8_menu_96" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/tcaption_2"
+            android:text="Calculations"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="28sp"
-            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.328"
+            app:layout_constraintHorizontal_bias="0.417"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.478" />
+            app:layout_constraintVertical_bias="0.307" />
 
         <ImageView
-            android:id="@+id/revCal"
-            android:layout_width="40dp"
-            android:layout_height="35dp"
+            android:id="@+id/addC5"
+            android:layout_width="37dp"
+            android:layout_height="39dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cartC5"
+            app:layout_constraintHorizontal_bias="0.86"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/icons8_bell_24" />
+
+        <ImageView
+            android:id="@+id/cartC5"
+            android:layout_width="52dp"
+            android:layout_height="43dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.914"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.407"
-            app:srcCompat="@drawable/icons8_menu_vertical_96" />
-
+            app:layout_constraintVertical_bias="0.625"
+            app:srcCompat="@android:drawable/ic_menu_share" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="387dp"
-        android:layout_height="457dp"
-        android:background="#BF000000"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        android:layout_width="358dp"
+        android:layout_height="414dp"
+        android:background="#80000000"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageCam"
-            android:layout_width="103dp"
-            android:layout_height="75dp"
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="120dp"
+            android:layout_height="44dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.874"
-            app:srcCompat="@drawable/icons8_add_image_96" />
-
-        <TextView
-            android:id="@+id/textView87"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tlable_2"
-            android:textColor="@color/white"
+            android:text="Hours"
+            android:textColor="@color/MButton3c"
             android:textSize="20sp"
-            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.061"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.225" />
+            app:layout_constraintVertical_bias="0.105" />
 
         <EditText
-            android:id="@+id/reviewTitle"
-            android:layout_width="363dp"
-            android:layout_height="47dp"
+            android:id="@+id/calEx1"
+            android:layout_width="165dp"
+            android:layout_height="44dp"
             android:ems="10"
-            android:hint="@string/tedit_2"
-            android:inputType="textPersonName"
-            android:textColor="@color/white"
+            android:hint="Enter Hours"
+            android:inputType="number"
+            android:textColor="@color/MButton3c"
             android:textColorHint="@color/darker_gray"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintHorizontal_bias="0.882"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.331" />
+            app:layout_constraintVertical_bias="0.073" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="190dp"
+            android:layout_height="59dp"
+            android:text="Rate per Hour"
+            android:textColor="@color/MButton3c"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.301" />
 
         <EditText
-            android:id="@+id/customerComment"
-            android:layout_width="357dp"
-            android:layout_height="39dp"
-            android:ems="10"
-            android:hint="@string/tedit_3"
-            android:inputType="textPersonName"
-            android:textColor="@color/white"
-            android:textColorHint="@color/darker_gray"
+            android:id="@+id/calEx2"
+            android:inputType="number"
+            android:layout_width="106dp"
+            android:layout_height="55dp"
+            android:text="0.5"
+            android:textColor="@color/green_500"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.313"
+            app:layout_constraintHorizontal_bias="0.706"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.705" />
-
-        <EditText
-            android:id="@+id/customerName"
-            android:layout_width="357dp"
-            android:layout_height="39dp"
-            android:ems="10"
-            android:hint="@string/tedit_4"
-            android:inputType="textPersonName"
-            android:textColor="@color/white"
-            android:textColorHint="@color/darker_gray"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.313"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.122" />
+            app:layout_constraintVertical_bias="0.298" />
 
         <TextView
-            android:id="@+id/textView88"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tlable_3"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.065"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.425" />
-
-        <TextView
-            android:id="@+id/textView89"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tlable_4"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.049"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.037" />
-
-        <TextView
-            android:id="@+id/textView90"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tlable_7"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.067"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.604" />
-
-        <Button
-            android:id="@+id/submitReview"
-            android:layout_width="302dp"
-            android:layout_height="53dp"
-            android:text="@string/tbtn_1"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:backgroundTint="@color/teal_700"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.98" />
-
-        <RatingBar
-            android:id="@+id/ratingBar"
-            android:layout_width="222dp"
-            android:layout_height="50dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.096"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.515" />
-
-        <Button
-            android:id="@+id/reviewButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tbtn_5"
-            app:backgroundTint="@color/MButton2c"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.587"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.836" />
-
-        <Button
-            android:id="@+id/listViewebutton"
+            android:id="@+id/textView15"
             android:layout_width="129dp"
-            android:layout_height="52dp"
-            android:text="ViewList"
-            app:backgroundTint="#A31D31"
+            android:layout_height="53dp"
+            android:text="Voucher"
+            android:textColor="@color/MButton3c"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.959"
+            app:layout_constraintHorizontal_bias="0.039"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.012" />
+            app:layout_constraintVertical_bias="0.501" />
 
-        <ImageView
-            android:id="@+id/revSearch"
-            android:layout_width="68dp"
+        <EditText
+            android:id="@+id/calEx3"
+            android:layout_width="183dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:hint="Enter Voucher"
+            android:inputType="number"
+            android:textColor="@color/MButton3c"
+            android:textColorHint="@color/darker_gray"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.977"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.471" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="143dp"
             android:layout_height="46dp"
+            android:text="Charge"
+            android:textColor="@color/MButton3c"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintHorizontal_bias="0.041"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.01"
-            app:srcCompat="@drawable/icons8_search_150" />
+            app:layout_constraintVertical_bias="0.682" />
 
+        <EditText
+            android:id="@+id/calEx4"
+            android:inputType="number"
+            android:layout_width="135dp"
+            android:layout_height="53dp"
+            android:text="500"
+            android:textColor="@color/green_500"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.766"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.675" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="212dp"
+            android:layout_height="46dp"
+            android:text="SubTotal(Rs)"
+            android:textColor="@color/MButton3c"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.828" />
+
+        <TextView
+            android:id="@+id/calEx5"
+            android:layout_width="121dp"
+            android:layout_height="51dp"
+            android:text="0"
+            android:textColor="@color/Mtopic1color"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.84" />
+
+        <Button
+            android:id="@+id/btnCal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calc"
+            android:text="Calculate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.481"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.972" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
