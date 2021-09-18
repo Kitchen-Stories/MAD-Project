@@ -15,6 +15,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenStories">
+ 
+        <activity android:name=".Payment"></activity>
+        <activity android:name=".DeleteCartActivity" />
+        <activity android:name=".EditCartActivity" />
+        <activity android:name=".ViewCartActivity" />
+        <activity android:name=".AddCartActivity" />
+ 
         <activity android:name=".SearchProfile"></activity>
         <activity
             android:name=".DeleteWithPlayMusicActivity"
@@ -26,6 +33,7 @@
         <activity android:name=".ListReviewActivity" />
         <activity android:name=".DeleteAndPlayMusicActivity" />
         <activity android:name=".ListExpertsActivity" />
+ 
         <activity android:name=".CustomerDetailsViewActivity" />
         <activity android:name=".SummaryReviewActivity" />
         <activity android:name=".AppSupportActivity" />
@@ -34,7 +42,14 @@
         <activity android:name=".WriteReviewActivity" />
         <activity android:name=".RatingReviewActivity" />
         <activity android:name=".CreateProfile" />
+ 
+
+
         <activity android:name=".FavouriteActivity" />
+
+ 
+        <activity android:name=".FavouriteActivity" />
+ 
         <activity android:name=".LoginActivity" />
         <activity
             android:name=".SummaryOfRecipeActivity"
@@ -51,11 +66,15 @@
         <activity
             android:name=".CategoryActivity"
             android:exported="true" />
+ 
+
+ 
         <activity
             android:name=".AddRecipeActivity"
             android:exported="true" />
         <activity android:name=".EditProfileActivity" />
         <activity android:name=".ViewProfileActivity" />
+ 
         <activity android:name=".EditExpertActivity" />
         <activity android:name=".DisplayExpertActivity" />
         <activity android:name=".AddExpertActivity" />
