@@ -9,6 +9,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,10 +19,11 @@ import com.database.RecipeDBHelper;
 
 
 public class AddRecipeActivity extends AppCompatActivity {
-    ImageView home , add , cart , expert , community , imageView ;
+    ImageView home , add , cart , expert , community , imageView,goback ;
     EditText name1 , name2 , name3 , name4 , name5 , name6 , name7 , name8 , name9 , name10 , name11;
     Button saveAdd , ButtonListRecipe;
     TextView m;
+    ImageButton search;
     private static final int CAMERA_REQUEST = 1888;
 
     AlertDialog.Builder builderM;
@@ -40,6 +42,7 @@ public class AddRecipeActivity extends AppCompatActivity {
         cart = findViewById(R.id.cartMD);
         expert = findViewById(R.id.expertMD);
         community = findViewById(R.id.communityMD);
+        goback = findViewById(R.id.imageViewgoprof);
 
         name1 = findViewById(R.id.ingr1);
         name2 = findViewById(R.id.ingr2);
@@ -55,6 +58,7 @@ public class AddRecipeActivity extends AppCompatActivity {
 
         saveAdd = findViewById(R.id.saveRecipe);
         ButtonListRecipe =findViewById(R.id.buttonListRecipe);
+        search = findViewById(R.id.idFindlistValue);
 
         DBM = new RecipeDBHelper(AddRecipeActivity.this);
         builderM = new AlertDialog.Builder(this);
@@ -152,6 +156,16 @@ public class AddRecipeActivity extends AppCompatActivity {
 
         community.setOnClickListener(v -> {
             Intent intent = new Intent(AddRecipeActivity.this , RatingReviewActivity.class);
+            startActivity(intent);
+        });
+
+        search.setOnClickListener(v -> {
+            Intent intent = new Intent(AddRecipeActivity.this , SearchRecipeActivity.class);
+            startActivity(intent);
+        });
+
+        goback.setOnClickListener(v -> {
+            Intent intent = new Intent(AddRecipeActivity.this , CreateProfile.class);
             startActivity(intent);
         });
 

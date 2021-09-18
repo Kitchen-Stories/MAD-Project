@@ -36,7 +36,15 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.ViewHolder
         this.recipeModalArrayList = recipeModalArrayList;
         this.context = context;
     }
-
+    // method for filtering our recyclerview items.
+    public void filterList(ArrayList<RecipeModal> filterllist) {
+        // below line is to add our filtered
+        // list in our course array list.
+        recipeModalArrayList = filterllist;
+        // below line is to notify our adapter
+        // as change in recycler view data.
+        notifyDataSetChanged();
+    }
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
