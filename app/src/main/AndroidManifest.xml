@@ -15,6 +15,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KitchenStories">
+
+        <activity android:name=".ReviewCalculation"></activity>
+        <activity android:name=".SearchReviewActivity" />
+        <activity android:name=".SearchProfile" />
+
+        <activity android:name=".ExpertCalculation"></activity>
+        <activity android:name=".SearchProfile" />
+
+
+        <activity
+            android:name=".SearchRecipeActivity"
+            android:exported="true" />
+        <activity android:name=".SearchProfile" />
+
  
         <activity android:name=".Payment"></activity>
         <activity android:name=".DeleteCartActivity" />
@@ -23,6 +37,7 @@
         <activity android:name=".AddCartActivity" />
  
         <activity android:name=".SearchProfile"></activity>
+
         <activity
             android:name=".DeleteWithPlayMusicActivity"
             android:exported="true" />

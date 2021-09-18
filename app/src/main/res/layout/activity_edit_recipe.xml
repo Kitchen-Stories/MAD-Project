@@ -407,11 +407,11 @@
                     android:textSize="30sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.224"
-                    app:layout_constraintStart_toEndOf="@+id/imageView"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewgoprof"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/imageView"
+                    android:id="@+id/imageViewgoprof"
                     android:layout_width="39dp"
                     android:layout_height="40dp"
                     android:layout_marginStart="28dp"

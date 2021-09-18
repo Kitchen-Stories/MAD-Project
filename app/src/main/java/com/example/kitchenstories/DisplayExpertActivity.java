@@ -4,11 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DisplayExpertActivity extends AppCompatActivity {
     ImageView home , add , cart , expert , community , profile , addExpert , imageView;
+    Button hire;
     int imagevalue;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +25,7 @@ public class DisplayExpertActivity extends AppCompatActivity {
         community = findViewById(R.id.communityS6);
         profile = findViewById(R.id.profileS3);
         addExpert = findViewById(R.id.addExpert1);
+        hire = findViewById(R.id.btnRegister);
 
         home.setOnClickListener(v -> {
             Intent intent = new Intent(DisplayExpertActivity.this , KitchenStoriesActivity.class);
@@ -55,6 +59,11 @@ public class DisplayExpertActivity extends AppCompatActivity {
 
         addExpert.setOnClickListener(v -> {
             Intent intent = new Intent(DisplayExpertActivity.this , AddExpertActivity.class);
+            startActivity(intent);
+        });
+
+        hire.setOnClickListener(v -> {
+            Intent intent = new Intent(DisplayExpertActivity.this , ExpertCalculation.class);
             startActivity(intent);
         });
 
