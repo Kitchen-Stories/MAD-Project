@@ -1,21 +1,25 @@
 package com.example.kitchenstories;
 
-
 import com.Calculations.ECalc;
 import com.Calculations.MCalc;
 import  com.Calculations.RevCalc;
+import com.Calculations.PCalc;
 
 
-
+ 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
+ 
+
+ 
 public class AllTests{
     private ECalc expertCalculation;
     private MCalc Calculatesummary;
     private RevCalc reviewCalculation;
+    private PCalc CalculatePaytotal;
 
 
     @BeforeEach
@@ -23,6 +27,7 @@ public class AllTests{
        expertCalculation = new ECalc();
        Calculatesummary = new MCalc();
        reviewCalculation = new RevCalc();
+       CalculatePaytotal = new PCalc();
     }
     @Test
     public void subTotal() throws NullPointerException{
@@ -40,5 +45,11 @@ public class AllTests{
         double result =  reviewCalculation.calculateTotalReview(2,200,0.7);
         assertEquals(280.0, result);
     }
+   @Test
+    public void TotalPayment() throws NullPointerException {
+        double answer = CalculatePaytotal.CalculatePaytotal(250, 2);
+        assertEquals(500, answer);
+    }
 }
 
+ 
